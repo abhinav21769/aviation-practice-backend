@@ -37,19 +37,25 @@ app.use('/api/knowledge', knowledgeRouter);
 app.use('/api/progress', progressRouter);
 app.use('/api/ai', aiRouter);
 
-// Health Check
-app.get('/api/health', (req, res) => {
-  res.json({
+// Health Check endpoints (ideal for UptimeRobot, Render keep-alive, and monitoring)
+const healthHandler = (req, res) => {
+  res.status(200).json({
     status: 'ok',
-    app: 'Aviation Practice Express Backend (MongoDB Atlas)',
-    database: isDbConnected() ? 'MongoDB Atlas (Connected)' : 'Connecting...',
-    user: 'Nishtha',
-    time: new Date().toISOString(),
+    uptime: process.uptime(),
+    app: 'SkyReady Aviation Practice Backend',
+    database: isDbConnected() ? 'connected' : 'connecting',
+    timestamp: new Date().toISOString(),
   });
-});
+};
+
+app.get('/health', healthHandler);
+app.get('/api/health', healthHandler);
+app.head('/health', (req, res) => res.status(200).end());
+app.head('/api/health', (req, res) => res.status(200).end());
+app.head('/', (req, res) => res.status(200).end());
 
 app.get('/', (req, res) => {
-  res.send('✈️ Aviation Practice Express Backend Server with MongoDB Atlas is running smoothly!');
+  res.status(200).send('✈️ SkyReady Aviation Practice Express Backend is active and running smoothly!');
 });
 
 app.listen(PORT, () => {

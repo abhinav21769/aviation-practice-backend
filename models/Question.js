@@ -8,7 +8,10 @@ const QuestionSchema = new mongoose.Schema(
     airline: String,
     difficulty: String,
     question: { type: String, required: true },
-    context: String,
+    whatTheyLookFor: String,
+    framework: String,
+    exampleAnswer: String,
+    starApplicable: { type: Boolean, default: false },
     starAnswer: {
       situation: String,
       task: String,
@@ -19,8 +22,9 @@ const QuestionSchema = new mongoose.Schema(
     whatInterviewersLookFor: [String],
     commonMistakes: [String],
     proTip: String,
+    context: String,
   },
-  { timestamps: true }
+  { timestamps: true, strict: false }
 );
 
 export default mongoose.models.Question || mongoose.model('Question', QuestionSchema);
