@@ -4,14 +4,14 @@ import Vocabulary from '../models/Vocabulary.js';
 const router = express.Router();
 
 const categories = [
-  { id: 'airport', label: 'Airport', icon: 'Building2' },
   { id: 'aircraft', label: 'Aircraft', icon: 'Plane' },
+  { id: 'airport', label: 'Airport', icon: 'Building2' },
   { id: 'cabin', label: 'Cabin', icon: 'LayoutGrid' },
-  { id: 'safety', label: 'Safety', icon: 'ShieldAlert' },
   { id: 'service', label: 'Service', icon: 'Coffee' },
-  { id: 'communication', label: 'Communication', icon: 'Radio' },
-  { id: 'medical', label: 'Medical', icon: 'Cross' },
-  { id: 'weather', label: 'Weather', icon: 'CloudRain' },
+  { id: 'safety', label: 'Safety', icon: 'ShieldAlert' },
+  { id: 'emergency', label: 'Emergency', icon: 'AlertTriangle' },
+  { id: 'operations', label: 'Operations', icon: 'Radio' },
+  { id: 'announcements', label: 'Announcements', icon: 'Megaphone' },
 ];
 
 // GET /api/vocabulary

@@ -5,13 +5,13 @@ import UserProgress from '../models/UserProgress.js';
 const router = express.Router();
 
 const categories = [
-  { id: 'disruptive_passengers', label: 'Disruptive Passengers', icon: 'AlertTriangle' },
-  { id: 'medical_emergencies', label: 'Medical Emergencies', icon: 'HeartPulse' },
-  { id: 'safety_violations', label: 'Safety Violations', icon: 'ShieldAlert' },
-  { id: 'service_recovery', label: 'Service Recovery', icon: 'SmilePlus' },
+  { id: 'difficult_passengers', label: 'Difficult Passengers', icon: 'AlertTriangle' },
+  { id: 'service', label: 'Service Recovery', icon: 'SmilePlus' },
+  { id: 'medical', label: 'Medical Emergencies', icon: 'HeartPulse' },
   { id: 'special_needs', label: 'Special Needs', icon: 'Accessibility' },
-  { id: 'team_coordination', label: 'Team Coordination', icon: 'Users' },
-  { id: 'irregular_operations', label: 'Irregular Operations', icon: 'Clock' },
+  { id: 'conflict', label: 'Passenger Conflicts', icon: 'Users' },
+  { id: 'delays', label: 'Delays & Operations', icon: 'Clock' },
+  { id: 'emergency', label: 'Safety & Emergency', icon: 'ShieldAlert' },
 ];
 
 // GET /api/scenarios

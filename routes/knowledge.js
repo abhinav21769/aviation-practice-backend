@@ -4,11 +4,11 @@ import Knowledge from '../models/Knowledge.js';
 const router = express.Router();
 
 const categories = [
-  { id: 'airline_profiles', label: 'Airline Profiles', icon: 'Building' },
-  { id: 'aircraft_types', label: 'Aircraft Types', icon: 'Plane' },
-  { id: 'safety_systems', label: 'Safety Systems', icon: 'ShieldCheck' },
-  { id: 'grooming_standards', label: 'Grooming Standards', icon: 'Sparkles' },
-  { id: 'service_procedures', label: 'Service Procedures', icon: 'Utensils' },
+  { id: 'aircraft', label: 'Aircraft Types', icon: 'Plane' },
+  { id: 'safety', label: 'Safety Systems', icon: 'ShieldCheck' },
+  { id: 'service', label: 'Service Procedures', icon: 'Utensils' },
+  { id: 'operations', label: 'Flight Operations', icon: 'Radio' },
+  { id: 'regulations', label: 'Aviation Regulations', icon: 'BookOpen' },
 ];
 
 // GET /api/knowledge

@@ -8,10 +8,9 @@ const categories = [
   { id: 'personal', label: 'Personal', icon: 'User' },
   { id: 'customer_service', label: 'Customer Service', icon: 'Heart' },
   { id: 'teamwork', label: 'Teamwork', icon: 'Users' },
-  { id: 'conflict_resolution', label: 'Conflict Resolution', icon: 'ShieldAlert' },
-  { id: 'safety_emergency', label: 'Safety & Emergency', icon: 'AlertTriangle' },
-  { id: 'airline_specific', label: 'Airline-Specific', icon: 'Plane' },
-  { id: 'cultural_awareness', label: 'Cultural Awareness', icon: 'Globe' },
+  { id: 'behavioral', label: 'Behavioral', icon: 'Brain' },
+  { id: 'pressure', label: 'Handling Pressure', icon: 'Zap' },
+  { id: 'airline', label: 'Airline-Specific', icon: 'Plane' },
 ];
 
 // GET /api/questions

@@ -4,9 +4,9 @@ import Exercise from '../models/Exercise.js';
 const router = express.Router();
 
 const categories = [
-  { id: 'politeness', label: 'Polite Transformations', icon: 'Smile' },
+  { id: 'professionalise', label: 'Polite Transformations', icon: 'Smile' },
+  { id: 'passenger_response', label: 'Passenger Responses', icon: 'MessageSquare' },
   { id: 'announcements', label: 'PA Announcements', icon: 'Megaphone' },
-  { id: 'dialogues', label: 'Passenger Dialogues', icon: 'MessageSquare' },
   { id: 'grammar', label: 'Aviation Grammar', icon: 'CheckCircle2' },
 ];
 
