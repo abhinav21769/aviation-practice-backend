@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import { connectDB, isDbConnected } from './config/db.js';
 
 import questionsRouter from './routes/questions.js';
 import vocabularyRouter from './routes/vocabulary.js';
@@ -15,7 +16,10 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-// CORS setup allowing all origins (Vercel frontend, local dev, Render)
+// Connect to MongoDB Atlas (Graceful async connection)
+connectDB();
+
+// CORS setup allowing all origins
 app.use(cors({
   origin: '*',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
@@ -33,11 +37,12 @@ app.use('/api/knowledge', knowledgeRouter);
 app.use('/api/progress', progressRouter);
 app.use('/api/ai', aiRouter);
 
-// Health Check Endpoint (For Render.com & Vercel)
+// Health Check Endpoint (Reports MongoDB status)
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'ok',
-    app: 'Aviation Practice Express Backend (Render)',
+    app: 'Aviation Practice Express Backend',
+    database: isDbConnected() ? 'MongoDB Atlas (Connected)' : 'Local File System (Active)',
     user: 'Nishtha',
     time: new Date().toISOString(),
   });
