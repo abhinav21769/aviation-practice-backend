@@ -175,4 +175,50 @@ router.post('/simulator', async (req, res) => {
   }
 });
 
+// POST /api/progress/reset
+router.post('/reset', async (req, res) => {
+  try {
+    await UserProgress.deleteMany({ userName: 'Nishtha' });
+    const resetDoc = await UserProgress.create({
+      userName: 'Nishtha',
+      questionsAnswered: 0,
+      wordsLearned: 0,
+      scenariosCompleted: 0,
+      mockInterviews: 0,
+      daysActive: 1,
+      overallProgress: 0,
+      currentStreak: 0,
+      lastActiveDate: new Date().toDateString(),
+      currentDay: 1,
+      todayTasks: [
+        { id: 't1', label: 'Learn 5 aviation terms', completed: false },
+        { id: 't2', label: 'Practice 3 interview questions', completed: false },
+        { id: 't3', label: 'Complete 5 situational scenarios', completed: false },
+        { id: 't4', label: 'Practice one English response', completed: false },
+      ],
+      todayFocus: 'Personal Introduction & Customer Service Excellence',
+      todayEstimatedMinutes: 20,
+      savedWords: [],
+      completedQuestions: [],
+      questionResponses: [],
+      completedScenarios: [],
+      scenarioResponses: [],
+      weeklyProgress: [0, 0, 0, 0, 0, 0, 0],
+      categoryProgress: {
+        interview: 0,
+        vocabulary: 0,
+        english: 0,
+        scenarios: 0,
+        knowledge: 0,
+        simulator: 0,
+      },
+      simulatorSessions: [],
+    });
+    res.json({ success: true, message: 'Progress reset to 0', progress: resetDoc });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
 export default router;
+
