@@ -39,6 +39,14 @@ const UserProgressSchema = new mongoose.Schema(
     savedWords: [{ type: String }],
     completedQuestions: [{ type: String }],
     completedScenarios: [{ type: String }],
+    scenarioResponses: [
+      {
+        scenarioId: String,
+        selectedOption: String,
+        isCorrect: Boolean,
+        answeredAt: { type: Date, default: Date.now },
+      },
+    ],
     weeklyProgress: { type: [Number], default: [0, 0, 0, 0, 0, 0, 0] },
     categoryProgress: {
       interview: { type: Number, default: 0 },

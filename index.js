@@ -2,8 +2,6 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { connectDB, isDbConnected } from './config/db.js';
-import { seedDatabase } from './scripts/seed.js';
-import Question from './models/Question.js';
 
 import questionsRouter from './routes/questions.js';
 import vocabularyRouter from './routes/vocabulary.js';
@@ -18,23 +16,10 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-// Connect to MongoDB Atlas and auto-seed if empty
-async function initServer() {
-  await connectDB();
-  try {
-    const qCount = await Question.countDocuments();
-    if (qCount === 0) {
-      console.log('🌱 Empty database detected. Auto-seeding MongoDB Atlas...');
-      await seedDatabase();
-    }
-  } catch (err) {
-    console.warn('Auto-seed check failed:', err.message);
-  }
-}
+// Connect to MongoDB Atlas
+connectDB();
 
-initServer();
-
-// CORS setup allowing all origins
+// CORS Middleware
 app.use(cors({
   origin: '*',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
@@ -52,7 +37,7 @@ app.use('/api/knowledge', knowledgeRouter);
 app.use('/api/progress', progressRouter);
 app.use('/api/ai', aiRouter);
 
-// Health Check Endpoint (Reports live MongoDB status)
+// Health Check
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'ok',
