@@ -74,15 +74,13 @@ router.post('/word', async (req, res) => {
   const { wordId } = req.body;
   try {
     const doc = await getNishthaProgress();
-    const alreadySaved = doc.savedWords.includes(wordId);
-    doc.savedWords = alreadySaved
-      ? doc.savedWords.filter((w) => w !== wordId)
-      : [...doc.savedWords, wordId];
-    if (!alreadySaved) {
+    if (!doc.savedWords) doc.savedWords = [];
+    if (wordId && !doc.savedWords.includes(wordId)) {
+      doc.savedWords.push(wordId);
       doc.wordsLearned += 1;
-      doc.categoryProgress.vocabulary = Math.min(100, doc.categoryProgress.vocabulary + 1);
+      doc.categoryProgress.vocabulary = Math.min(100, Math.round((doc.savedWords.length / 102) * 100));
+      await doc.save();
     }
-    await doc.save();
     res.json({ success: true, progress: doc });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
