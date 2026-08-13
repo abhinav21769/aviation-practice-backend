@@ -1,0 +1,33 @@
+{
+  "userName": "Nishtha",
+  "questionsAnswered": 47,
+  "wordsLearned": 126,
+  "scenariosCompleted": 23,
+  "mockInterviews": 8,
+  "daysActive": 5,
+  "overallProgress": 68,
+  "currentStreak": 7,
+  "lastActiveDate": "Thu Aug 13 2026",
+  "currentDay": 12,
+  "todayTasks": [
+    { "id": "t1", "label": "Learn 5 aviation terms", "completed": true },
+    { "id": "t2", "label": "Practice 3 interview questions", "completed": false },
+    { "id": "t3", "label": "Complete 5 situational scenarios", "completed": false },
+    { "id": "t4", "label": "Practice one English response", "completed": true }
+  ],
+  "todayFocus": "Handling Difficult Passengers & Emergency Escalation",
+  "todayEstimatedMinutes": 25,
+  "savedWords": [],
+  "completedQuestions": [],
+  "completedScenarios": [],
+  "weeklyProgress": [20, 35, 15, 40, 25, 10, 30],
+  "categoryProgress": {
+    "interview": 72,
+    "vocabulary": 58,
+    "english": 45,
+    "scenarios": 63,
+    "knowledge": 40,
+    "simulator": 55
+  },
+  "simulatorSessions": []
+}

@@ -1,0 +1,636 @@
+{
+  "topics": [
+    {
+      "id": "k1",
+      "category": "aircraft",
+      "title": "Aircraft Parts You Should Know",
+      "subtitle": "Essential aircraft anatomy for cabin crew",
+      "icon": "✈️",
+      "summary": "As cabin crew, you do not need to know how to fly the aircraft — but you do need to understand its key parts and what they mean for your role.",
+      "sections": [
+        {
+          "heading": "The Fuselage",
+          "content": "The main body of the aircraft. It contains the passenger cabin, cargo hold, and connects the wings and tail. When interviewers ask about aircraft structure, the fuselage is the starting point."
+        },
+        {
+          "heading": "Wings",
+          "content": "The horizontal surfaces that generate lift. During pre-flight checks, cabin crew verify the windows are open near the wings so crew can observe them. Wing-mounted engines are common on narrow-body aircraft."
+        },
+        {
+          "heading": "Doors",
+          "content": "The most critical parts of the aircraft for cabin crew. Each door has an arming mechanism connected to the escape slide. Crew are responsible for arming (before departure) and disarming (after landing) each door."
+        },
+        {
+          "heading": "Emergency Exits",
+          "content": "In addition to main doors, aircraft have overwing exits — smaller exits over the wings operated by passengers sitting in exit rows. These rows have specific briefing requirements."
+        },
+        {
+          "heading": "Galley",
+          "content": "The crew kitchen. Forward galleys are at the front, aft galleys at the rear. Wide-body aircraft have mid galleys as well. Galleys contain ovens, trolleys, service equipment, and emergency equipment."
+        }
+      ],
+      "interviewRelevance": "You may be asked to name parts of the aircraft or explain the layout of a cabin. Practice describing where the galley, lavatories, exits, and jump seats are located.",
+      "keyFacts": [
+        "Aircraft doors are numbered from front to back: 1L, 1R, 2L, 2R, etc.",
+        "The flight deck (cockpit) is at the front of the fuselage",
+        "Most narrow-body aircraft have 2 main doors at each end",
+        "Wide-body aircraft can have 4–5 door pairs"
+      ]
+    },
+    {
+      "id": "k2",
+      "category": "aircraft",
+      "title": "Aircraft Types You'll Encounter",
+      "subtitle": "Common commercial aircraft explained simply",
+      "icon": "🛫",
+      "summary": "Being able to name common aircraft types impresses interviewers and shows genuine aviation interest.",
+      "sections": [
+        {
+          "heading": "Narrow-Body Aircraft",
+          "content": "Single-aisle aircraft used on short and medium-haul routes. The Boeing 737 and Airbus A320 family are the world's most common aircraft. They typically carry 100–200 passengers with 3-3 seating in economy."
+        },
+        {
+          "heading": "Wide-Body Aircraft",
+          "content": "Twin-aisle aircraft for long-haul routes. The Boeing 777, 787 Dreamliner, Airbus A330, A350, and A380 are common examples. They carry 250–600 passengers depending on configuration."
+        },
+        {
+          "heading": "The A380",
+          "content": "The world's largest commercial passenger aircraft with a double deck. Operated by Emirates, Qantas, and others. Can carry up to 850+ passengers in full economy configuration."
+        }
+      ],
+      "interviewRelevance": "Know the primary aircraft in the fleet of the airline you are applying to. Research whether they operate A320s, 737s, 777s, or A380s.",
+      "keyFacts": [
+        "Boeing 737 and Airbus A320 are the most common aircraft worldwide",
+        "The A380 has two full passenger decks",
+        "Wide-body aircraft require larger crew complements"
+      ]
+    },
+    {
+      "id": "k3",
+      "category": "aircraft",
+      "title": "The Cabin Layout",
+      "subtitle": "Understanding how the passenger cabin is organized",
+      "icon": "🪑",
+      "summary": "Understanding the cabin layout helps you describe your working environment clearly in interviews.",
+      "sections": [
+        {
+          "heading": "Cabin Classes",
+          "content": "Most commercial aircraft have 2–3 cabin classes: First Class (front, most exclusive), Business Class (middle or front, premium), and Economy Class (majority of the aircraft). Each class has different service standards, seating configurations, and crew allocation."
+        },
+        {
+          "heading": "Seat Numbering",
+          "content": "Seats are numbered from front to back (rows 1, 2, 3...) and lettered from left to right (A, B, C for window-middle-aisle on one side; D, E, F for the other side on a narrow-body). Wide-body aircraft may have A-B-C-D-E-F-G or similar configurations."
+        },
+        {
+          "heading": "Key Cabin Locations",
+          "content": "Every cabin crew member is assigned a zone. Forward crew work at the front (typically higher classes), aft crew work at the rear. Bulkhead seats (at zone divisions) often have extra legroom and are allocated to families with infants (bassinet attachment) or passengers with mobility needs."
+        }
+      ],
+      "interviewRelevance": "Understanding seating helps when describing how you would locate or assist a passenger.",
+      "keyFacts": [
+        "Exit rows have specific requirements — occupants must be able to assist in an emergency",
+        "Bulkhead rows allow bassinet attachment for infants",
+        "Crew are typically responsible for specific zones during service"
+      ]
+    },
+    {
+      "id": "k4",
+      "category": "safety",
+      "title": "The Safety Demonstration",
+      "subtitle": "What it includes and why it matters",
+      "icon": "🦺",
+      "summary": "The pre-flight safety demonstration is a legal requirement and one of the most visible parts of the cabin crew role.",
+      "sections": [
+        {
+          "heading": "Why It Exists",
+          "content": "Aviation authorities require airlines to brief passengers on safety equipment and procedures before every flight. Even if a passenger has flown hundreds of times, the demonstration must be performed."
+        },
+        {
+          "heading": "What It Covers",
+          "content": "1. Seat belt fastening and release. 2. Electronic devices policy. 3. Emergency exits location. 4. Oxygen mask — put on your own first, then assist others. 5. Life jacket location and inflation. 6. Safety card location."
+        },
+        {
+          "heading": "Live vs Video Demo",
+          "content": "Many airlines use video safety demonstrations. Some still require live demonstrations or a combination. Cabin crew performing a live demo use a demo kit — a set of actual equipment props."
+        }
+      ],
+      "interviewRelevance": "You may be asked to demonstrate how you would brief a passenger on the oxygen mask or life jacket. Practice simple, clear explanations.",
+      "keyFacts": [
+        "Put on your own oxygen mask FIRST before assisting others — this is critical",
+        "Life jackets should NOT be inflated inside the aircraft — inflate once outside",
+        "The nearest exit may be behind you"
+      ]
+    },
+    {
+      "id": "k5",
+      "category": "safety",
+      "title": "Door Arming and Disarming",
+      "subtitle": "One of the most critical cabin crew responsibilities",
+      "icon": "🚪",
+      "summary": "The arming and disarming of aircraft doors is a fundamental safety responsibility unique to cabin crew.",
+      "sections": [
+        {
+          "heading": "What is \"Armed\"?",
+          "content": "When a door is armed, the escape slide is connected via a girt bar. If the door is opened in this state, the slide will automatically deploy. This must happen before pushback."
+        },
+        {
+          "heading": "What is \"Disarmed\"?",
+          "content": "After landing, doors must be disarmed before they are opened. If an armed door is opened normally at the gate, the slide will deploy — a costly and dangerous accident."
+        },
+        {
+          "heading": "Cross-Check",
+          "content": "Each crew member confirms their door status and then \"cross-checks\" with the crew member at the opposite door. This is a safety verification step. The command \"Arm doors and cross-check\" precedes departure."
+        }
+      ],
+      "interviewRelevance": "Understanding door arming shows awareness of real safety procedures. Many interviewers are impressed when candidates know about this.",
+      "keyFacts": [
+        "Accidental slide deployment causes serious injury and costs over $100,000",
+        "Cross-check means verifying your opposite colleague's door status",
+        "\"Arm doors and cross-check\" is the pre-departure crew command"
+      ]
+    },
+    {
+      "id": "k6",
+      "category": "safety",
+      "title": "Emergency Equipment on Board",
+      "subtitle": "What's on the aircraft and what it's for",
+      "icon": "🩺",
+      "summary": "Aircraft carry a range of emergency equipment that cabin crew must know how to locate and use.",
+      "sections": [
+        {
+          "heading": "First Aid Kit",
+          "content": "A comprehensive kit with bandages, medications, instruments, and supplies for managing medical situations on board. Cabin crew are trained to use these."
+        },
+        {
+          "heading": "AED (Defibrillator)",
+          "content": "Automated External Defibrillator — used for cardiac arrest. Voice-guided, so even non-medical crew can use it. Located in accessible positions on the aircraft."
+        },
+        {
+          "heading": "Fire Extinguishers",
+          "content": "Usually Halon/BCF type extinguishers for use on most aircraft fires. Located in galleys and throughout the cabin. Must be checked during pre-flight."
+        },
+        {
+          "heading": "Smoke Hoods",
+          "content": "Protective hoods worn by crew in smoke-filled areas. Provide filtered air for a limited period."
+        },
+        {
+          "heading": "Escape Ropes",
+          "content": "Used in the flight deck for pilot evacuation when the main exits are not accessible."
+        }
+      ],
+      "interviewRelevance": "Know the main categories of emergency equipment. You do not need to know exact locations (you will learn in training) but awareness impresses interviewers.",
+      "keyFacts": [
+        "AEDs are voice-guided and usable by non-medical crew",
+        "Pre-flight checks include verifying emergency equipment",
+        "Fire extinguisher locations are part of safety check routes"
+      ]
+    },
+    {
+      "id": "k7",
+      "category": "safety",
+      "title": "Evacuation Procedures",
+      "subtitle": "What happens when an emergency landing requires evacuation",
+      "icon": "🏃",
+      "summary": "An aircraft evacuation must be completed in 90 seconds. Cabin crew are trained to achieve this.",
+      "sections": [
+        {
+          "heading": "The 90-Second Standard",
+          "content": "Regulatory authorities require that an aircraft can be fully evacuated within 90 seconds using half the exits. This is achieved through training, slide deployment, and authoritative crew commands."
+        },
+        {
+          "heading": "Crew Commands",
+          "content": "Cabin crew use specific shouted commands: \"Unbuckle!\" \"Leave everything!\" \"Come this way!\" \"Jump and slide!\" These must be loud, clear, and authoritative. Passengers must leave ALL belongings behind."
+        },
+        {
+          "heading": "Assessing the Door",
+          "content": "Before opening an exit, crew feel the door for heat (fire indicator) and look through the window for external hazards (fire, obstruction). Only open if safe."
+        }
+      ],
+      "interviewRelevance": "Interviewers want to see that you understand the urgency and command nature of evacuations. Cabin crew must be able to overcome the natural instinct to be polite.",
+      "keyFacts": [
+        "90 seconds is the evacuation standard",
+        "Remove high heels before sliding down escape slides",
+        "Leave ALL belongings — bags slow evacuation and can puncture slides"
+      ]
+    },
+    {
+      "id": "k8",
+      "category": "operations",
+      "title": "Phases of a Flight",
+      "subtitle": "Understanding what happens from gate to gate",
+      "icon": "📍",
+      "summary": "A flight has defined phases, and cabin crew responsibilities change at each phase.",
+      "sections": [
+        {
+          "heading": "Boarding",
+          "content": "Passengers board the aircraft. Cabin crew check boarding passes, assist with luggage, direct passengers to seats, and perform pre-flight safety checks."
+        },
+        {
+          "heading": "Pre-Departure",
+          "content": "Safety checks are completed. Doors are armed. Safety demonstration is performed. Crew take jump seats for takeoff."
+        },
+        {
+          "heading": "Takeoff",
+          "content": "Crew are seated on jump seats with harnesses fastened during takeoff. The critical safety phase — crew must be available to respond to any emergency."
+        },
+        {
+          "heading": "Climb",
+          "content": "Once the fasten seat belt sign goes off (typically above 10,000 feet), crew can begin service preparation."
+        },
+        {
+          "heading": "Cruise",
+          "content": "The main service phase. Meal and beverage service, duty-free, passenger welfare checks, lavatory maintenance, rest rotation on long-haul."
+        },
+        {
+          "heading": "Descent",
+          "content": "Crew prepare the cabin: collect meal items, secure galleys, ensure passengers are seated, check overhead bins, dim lights for night arrivals."
+        },
+        {
+          "heading": "Landing",
+          "content": "Crew on jump seats. Another critical safety phase. Doors disarmed after landing."
+        },
+        {
+          "heading": "Disembarkation",
+          "content": "Passengers depart. Crew bid farewell, assist with luggage, report any incidents, conduct post-flight checks."
+        }
+      ],
+      "interviewRelevance": "Being able to describe the phases of a flight confidently shows aviation knowledge and helps answer \"walk me through a typical day as cabin crew.\"",
+      "keyFacts": [
+        "Critical Safety Phases (CSP): takeoff and landing — crew must be seated",
+        "The seat belt sign going off signals cruise phase beginning",
+        "Galleys must be secured and locked for landing"
+      ]
+    },
+    {
+      "id": "k9",
+      "category": "operations",
+      "title": "The Pre-Flight Briefing",
+      "subtitle": "What happens before every single flight",
+      "icon": "📋",
+      "summary": "Every flight begins with a mandatory briefing. Understanding this process shows preparedness.",
+      "sections": [
+        {
+          "heading": "Who Leads It",
+          "content": "The purser (senior cabin crew member) leads the briefing. The captain may attend for part of it. It typically takes place 60–90 minutes before departure."
+        },
+        {
+          "heading": "What Is Covered",
+          "content": "Route information (duration, destination, time zones). Weather en route. Special passengers (unaccompanied minors, PRMs, VIPs, passengers requiring medical attention). Service plan and menu. Security briefing. Emergency procedures review. Zone/door assignments."
+        },
+        {
+          "heading": "Safety Questions",
+          "content": "Crew may be quizzed on emergency procedures, minimum equipment, and safety drill knowledge. Knowing your safety drills is mandatory."
+        }
+      ],
+      "interviewRelevance": "Mentioning the pre-flight briefing in an interview shows you understand the professional preparation that goes into a flight beyond the public-facing service.",
+      "keyFacts": [
+        "Briefings are mandatory and cannot be skipped",
+        "Zone and door assignments are given at the briefing",
+        "Special passenger requirements are always communicated here"
+      ]
+    },
+    {
+      "id": "k10",
+      "category": "operations",
+      "title": "Crew Hierarchy on Board",
+      "subtitle": "Understanding the chain of command in the cabin",
+      "icon": "👥",
+      "summary": "Clear hierarchy ensures coordinated responses to both routine service and emergencies.",
+      "sections": [
+        {
+          "heading": "Captain",
+          "content": "The commander of the aircraft. Has ultimate authority over all crew and the aircraft. All serious incidents are reported to and decided by the captain."
+        },
+        {
+          "heading": "First Officer",
+          "content": "The co-pilot. Assists the captain in flying the aircraft. Typically not directly involved in cabin operations unless requested."
+        },
+        {
+          "heading": "Purser / CSD",
+          "content": "The senior cabin crew member responsible for the cabin and crew team. First point of escalation for cabin crew. Communicates with the flight deck. Leads the pre-flight briefing."
+        },
+        {
+          "heading": "Cabin Crew",
+          "content": "All other crew members. Responsible for their assigned zones. Report to the purser. Take direction from the purser on service and safety matters."
+        }
+      ],
+      "interviewRelevance": "Understanding hierarchy shows you can work within a structured team. Many airlines specifically ask about your experience in hierarchical work environments.",
+      "keyFacts": [
+        "The captain has ultimate authority in all situations",
+        "Cabin crew always follow the purser's direction",
+        "Understanding hierarchy is essential for safety — single command in emergencies"
+      ]
+    },
+    {
+      "id": "k11",
+      "category": "service",
+      "title": "Meal Service Procedures",
+      "subtitle": "How in-flight catering service works",
+      "icon": "🍽️",
+      "summary": "Understanding the structure of meal service helps you describe your approach to in-flight service.",
+      "sections": [
+        {
+          "heading": "Service Order",
+          "content": "Premium classes are always served first. In economy, service typically proceeds from front and rear simultaneously to ensure all passengers receive meals while hot."
+        },
+        {
+          "heading": "Special Meals",
+          "content": "Pre-ordered for dietary, medical, religious, or personal reasons. Must be identified and delivered before the general service. Common SPML codes: VGML (vegetarian), VLML (vegan), KSML (kosher), HNML (Hindu), DBML (diabetic), AVML (Asian vegetarian)."
+        },
+        {
+          "heading": "Beverage Service",
+          "content": "Usually follows or accompanies the meal. Alcohol service follows airline policy — some routes are dry (no alcohol). Crew have authority to refuse alcohol service to intoxicated passengers."
+        }
+      ],
+      "interviewRelevance": "Understanding service procedures helps you answer \"describe how you would conduct a meal service\" or \"what would you do if a passenger's special meal was not on board.\"",
+      "keyFacts": [
+        "Premium class is always served before economy",
+        "Special meals must be delivered first, before general service begins",
+        "Crew have legal authority to refuse alcohol to intoxicated passengers"
+      ]
+    },
+    {
+      "id": "k12",
+      "category": "service",
+      "title": "Passenger Types and Special Needs",
+      "subtitle": "Who you'll encounter and what they need",
+      "icon": "🧑‍🤝‍🧑",
+      "summary": "Understanding passenger categories helps you provide appropriate, personalized service.",
+      "sections": [
+        {
+          "heading": "Unaccompanied Minors (UM)",
+          "content": "Children traveling alone, typically ages 5–14. Have specific documentation. Must be supervised throughout the flight and handed over only to the designated adult at the destination."
+        },
+        {
+          "heading": "Passengers with Reduced Mobility (PRM)",
+          "content": "Passengers who need wheelchair assistance, aisle chairs to board, or other mobility support. Pre-boarded before general boarding. May need assistance to lavatories."
+        },
+        {
+          "heading": "VIP / Celebrity Passengers",
+          "content": "Require discretion above all else. Privacy must be maintained. Do not discuss VIP passengers with other passengers."
+        },
+        {
+          "heading": "Anxious Fliers",
+          "content": "More common than you think. Require calm, personal reassurance and simple explanations of sounds and movements."
+        },
+        {
+          "heading": "Infants",
+          "content": "Typically under 2 years old. May use bassinets at bulkhead seats. Parents need extra patience and practical support."
+        }
+      ],
+      "interviewRelevance": "Demonstrating awareness of diverse passenger needs shows empathy and professional preparation.",
+      "keyFacts": [
+        "UMs must be handed over only to the designated adult at destination",
+        "PRMs are boarded before general boarding",
+        "Privacy is the most important aspect of VIP service"
+      ]
+    },
+    {
+      "id": "k13",
+      "category": "regulations",
+      "title": "Cabin Crew Authority",
+      "subtitle": "Understanding your legal powers on board",
+      "icon": "⚖️",
+      "summary": "Cabin crew have specific legal authority on board an aircraft. Understanding this helps you respond with appropriate confidence.",
+      "sections": [
+        {
+          "heading": "Authority Under Aviation Law",
+          "content": "Under the Tokyo Convention and national aviation acts, cabin crew have legal authority to ensure passenger compliance with safety instructions. Passengers who endanger the safety of the aircraft can be restrained."
+        },
+        {
+          "heading": "Refusing Service",
+          "content": "Cabin crew have the right and duty to refuse alcohol to intoxicated passengers and service to passengers behaving in ways that compromise safety."
+        },
+        {
+          "heading": "Following Crew Instructions",
+          "content": "Passengers are legally required to follow safety-related instructions from cabin crew. Non-compliance is an aviation offense."
+        }
+      ],
+      "interviewRelevance": "Understanding your authority helps you answer questions about assertiveness and difficult passengers with appropriate confidence.",
+      "keyFacts": [
+        "Cabin crew instructions on safety matters are legally binding",
+        "Refusing alcohol service is both a right and a duty",
+        "Restraining a dangerous passenger is legally permitted"
+      ]
+    },
+    {
+      "id": "k14",
+      "category": "regulations",
+      "title": "Crew Fatigue Management",
+      "subtitle": "Why rest rules matter in aviation",
+      "icon": "😴",
+      "summary": "Aviation regulations strictly limit crew duty hours to prevent fatigue-related accidents.",
+      "sections": [
+        {
+          "heading": "Why It Matters",
+          "content": "Fatigue impairs judgment, reaction time, and decision-making. In aviation, fatigue is treated as a safety issue, not just a comfort issue."
+        },
+        {
+          "heading": "Flight Duty Period (FDP)",
+          "content": "The maximum number of hours a crew member can be on duty, including briefing time, flight time, and disembarkation duties. Regulated by aviation authorities (EASA in Europe, FAA in the US, GCAA in UAE, etc.)."
+        },
+        {
+          "heading": "Rest Requirements",
+          "content": "Minimum rest periods between duties are mandated. Longer flights require in-flight crew rest periods. Long-haul aircraft are equipped with crew rest areas (bunks)."
+        }
+      ],
+      "interviewRelevance": "Showing awareness of fatigue management demonstrates you understand the professional realities of the job.",
+      "keyFacts": [
+        "Fatigue is classified as a safety risk in aviation",
+        "Regulations set maximum duty hours and minimum rest periods",
+        "In-flight rest is mandatory on certain long-haul routes"
+      ]
+    },
+    {
+      "id": "k15",
+      "category": "regulations",
+      "title": "Dangerous Goods and What's Prohibited",
+      "subtitle": "What passengers cannot bring on board",
+      "icon": "🚫",
+      "summary": "Cabin crew are responsible for identifying and managing dangerous goods situations.",
+      "sections": [
+        {
+          "heading": "Common Dangerous Goods",
+          "content": "Items like lithium batteries in bulk, compressed gases, flammable liquids in excess quantities, explosives, and certain chemicals are restricted or prohibited."
+        },
+        {
+          "heading": "What Passengers Try to Bring",
+          "content": "E-cigarettes (allowed but cannot be charged on board), large lithium battery power banks (limits apply), aerosols in excess, and occasionally items that are clearly prohibited."
+        },
+        {
+          "heading": "If You Find Prohibited Items",
+          "content": "Report to the purser immediately. Do not attempt to handle suspicious items alone. Follow airline security protocol."
+        }
+      ],
+      "interviewRelevance": "Basic awareness of dangerous goods shows safety consciousness.",
+      "keyFacts": [
+        "Lithium batteries in checked baggage — prohibited (fire risk)",
+        "E-cigarettes cannot be charged from aircraft power outlets",
+        "Any suspicious items or situations must be reported to the captain via the purser"
+      ]
+    },
+    {
+      "id": "k16",
+      "category": "safety",
+      "title": "Medical Emergencies in the Air",
+      "subtitle": "How cabin crew respond to health crises at altitude",
+      "icon": "🏥",
+      "summary": "Medical emergencies are among the most serious situations cabin crew face. Preparation and a calm response can save lives.",
+      "sections": [
+        {
+          "heading": "Most Common Medical Emergencies",
+          "content": "Cardiac events, fainting (syncope), respiratory issues, severe allergic reactions (anaphylaxis), strokes, diabetic episodes, and motion sickness-related complications."
+        },
+        {
+          "heading": "The Call for Medical Help",
+          "content": "A PA announcement asking \"Is there a medical professional on board?\" is standard. Doctors, nurses, and paramedics are frequently traveling and will assist. The airline's ground medical team can also be contacted by radio for guidance."
+        },
+        {
+          "heading": "The Role of the Cabin Crew",
+          "content": "Cabin crew are first responders. They provide first aid, access the medical kit, operate the AED if needed, keep other passengers calm, and communicate with the flight deck. The captain decides whether to divert."
+        }
+      ],
+      "interviewRelevance": "Medical emergency questions are common in cabin crew interviews. Knowing the process shows preparedness.",
+      "keyFacts": [
+        "Alert the purser and flight deck FIRST in any medical emergency",
+        "Ask via PA for medical professionals on board",
+        "The captain makes the diversion decision based on the situation"
+      ]
+    },
+    {
+      "id": "k17",
+      "category": "service",
+      "title": "Duty-Free and In-Flight Retail",
+      "subtitle": "Understanding the duty-free service",
+      "icon": "🛍️",
+      "summary": "In-flight duty-free retail is an important revenue stream for airlines and part of the cabin crew role.",
+      "sections": [
+        {
+          "heading": "What is Duty Free?",
+          "content": "Products sold without local tax or import duty, making them cheaper than ground prices. Perfumes, cosmetics, spirits, cigarettes, and gifts are common categories."
+        },
+        {
+          "heading": "When Is Service Conducted?",
+          "content": "Usually after the main meal service during cruise phase. A dedicated duty-free trolley is used."
+        },
+        {
+          "heading": "Payment",
+          "content": "Most airlines accept multiple currencies and credit/debit cards. Pre-ordering is increasingly common."
+        }
+      ],
+      "interviewRelevance": "Shows you understand the full scope of the cabin crew role including commercial responsibilities.",
+      "keyFacts": [
+        "Duty-free is a significant revenue source for airlines",
+        "Cabin crew are expected to present and sell duty-free items professionally",
+        "Limits on duty-free allowances vary by destination country"
+      ]
+    },
+    {
+      "id": "k18",
+      "category": "operations",
+      "title": "Airport Codes You Should Know",
+      "subtitle": "The universal language of aviation destinations",
+      "icon": "🗺️",
+      "summary": "IATA airport codes are used universally in aviation. Knowing major hub codes impresses interviewers.",
+      "sections": [
+        {
+          "heading": "Major Hub Airport Codes",
+          "content": "LHR = London Heathrow, DXB = Dubai International, JFK = New York JFK, CDG = Paris Charles de Gaulle, SIN = Singapore Changi, HKG = Hong Kong, ORD = Chicago O'Hare, LAX = Los Angeles, NRT = Tokyo Narita, SYD = Sydney Kingsford Smith."
+        },
+        {
+          "heading": "Why They Matter",
+          "content": "Crew use codes constantly in route descriptions, manifests, and briefings. Familiarity shows you understand the professional environment."
+        }
+      ],
+      "interviewRelevance": "Being able to cite airport codes naturally in your answer (\"I would love to work routes to DXB and SIN\") signals genuine aviation enthusiasm.",
+      "keyFacts": [
+        "IATA codes are 3 letters (LHR, DXB, JFK)",
+        "ICAO codes are 4 letters and used in flight planning (EGLL, OMDB)",
+        "Research the hub airport(s) of the airline you are applying to"
+      ]
+    },
+    {
+      "id": "k19",
+      "category": "regulations",
+      "title": "Passenger Rights",
+      "subtitle": "What passengers are entitled to — and how cabin crew respond",
+      "icon": "📜",
+      "summary": "Understanding passenger rights helps you respond professionally to complaints and demands.",
+      "sections": [
+        {
+          "heading": "Delays and Cancellations",
+          "content": "In many jurisdictions, passengers have rights to compensation and care during significant delays. EU261/2004 is the key European regulation. Cabin crew do not decide compensation — ground staff and airline operations do."
+        },
+        {
+          "heading": "Denied Boarding",
+          "content": "Passengers who are involuntarily denied boarding due to overbooking have rights to compensation. Cabin crew are not the ones who handle this — gate agents do."
+        },
+        {
+          "heading": "Lost Luggage",
+          "content": "Handled by ground staff at the destination. Cabin crew can note the issue and direct passengers to the baggage desk."
+        }
+      ],
+      "interviewRelevance": "Awareness shows maturity and helps you respond to passenger complaints about rights appropriately.",
+      "keyFacts": [
+        "Cabin crew are not responsible for processing compensation claims",
+        "Always direct passengers to ground staff for rights-related matters",
+        "Empathy during these situations defines the passenger experience"
+      ]
+    },
+    {
+      "id": "k20",
+      "category": "service",
+      "title": "Communication with the Flight Deck",
+      "subtitle": "How cabin crew and pilots interact",
+      "icon": "📡",
+      "summary": "Effective communication between the cabin and flight deck is critical to both safety and service.",
+      "sections": [
+        {
+          "heading": "Normal Communication",
+          "content": "Cabin crew communicate with the flight deck via the interphone (internal phone system). Standard calls: pre-departure confirmation, service updates, landing preparation confirmation."
+        },
+        {
+          "heading": "Emergency Communication",
+          "content": "In a medical emergency, security threat, or safety issue, cabin crew call the flight deck immediately. Specific signals (chime codes) mean different things on different aircraft."
+        },
+        {
+          "heading": "Two Pilots Must Stay in the Cockpit",
+          "content": "Aviation regulation requires that when one pilot leaves the flight deck (e.g., to use the lavatory), a crew member must take their seat in the cockpit. This is called the \"two-person cockpit rule\" or \"secondary barrier procedure.\""
+        }
+      ],
+      "interviewRelevance": "Understanding the relationship between cabin crew and the flight deck shows professionalism.",
+      "keyFacts": [
+        "Always knock before entering the flight deck — never enter unannounced",
+        "The captain has final authority over all in-flight decisions",
+        "Certain airlines use coded chimes for different communications"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "aircraft",
+      "label": "Aircraft Knowledge",
+      "icon": "Plane"
+    },
+    {
+      "id": "safety",
+      "label": "Safety & Emergency",
+      "icon": "Shield"
+    },
+    {
+      "id": "operations",
+      "label": "Flight Operations",
+      "icon": "Activity"
+    },
+    {
+      "id": "service",
+      "label": "Cabin Service",
+      "icon": "Coffee"
+    },
+    {
+      "id": "regulations",
+      "label": "Rules & Regulations",
+      "icon": "FileText"
+    }
+  ]
+}

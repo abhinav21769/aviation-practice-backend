@@ -1,0 +1,843 @@
+{
+  "questions": [
+    {
+      "id": "p1",
+      "category": "personal",
+      "difficulty": "easy",
+      "question": "Tell me about yourself.",
+      "whatTheyLookFor": "Interviewers want a concise, professional summary of who you are — your background, your personality traits relevant to cabin crew, and why you are here today. They are assessing your communication style and confidence.",
+      "framework": "Keep it under 2 minutes. Structure: (1) Who you are briefly, (2) Relevant experience or skills, (3) Why cabin crew excites you. Avoid personal details like age, family, or irrelevant hobbies.",
+      "exampleAnswer": "I have always been drawn to roles that combine people skills, adaptability, and purpose. I have a background in hospitality and customer service where I spent two years working directly with diverse guests, learning to stay calm under pressure and always put the customer first. I am fluent in English and conversational in French, which I believe would be genuinely useful in this role. Becoming a cabin crew member is a natural next step for me — it brings together everything I enjoy: meeting people, working as a team, and creating positive experiences even in challenging situations.",
+      "starApplicable": false,
+      "tags": [
+        "introduction",
+        "common"
+      ]
+    },
+    {
+      "id": "p2",
+      "category": "personal",
+      "difficulty": "easy",
+      "question": "Why do you want to become cabin crew?",
+      "whatTheyLookFor": "They are assessing your genuine motivation. They want passion, not desperation. Airlines invest significantly in training, so they want candidates who are committed for the right reasons.",
+      "framework": "Connect your personal values to the role. Mention: (1) Love of people and service, (2) Adaptability and love of variety, (3) The unique opportunity this role offers. Avoid saying just \"I love to travel.\"",
+      "exampleAnswer": "I am drawn to cabin crew because it is one of the few roles where every single day is genuinely different. You meet hundreds of different people, navigate unexpected situations, and have a real impact on someone's journey — whether that's comforting a nervous flier or going the extra mile for a passenger celebrating something special. I thrive in environments that require both calm professionalism and warmth. More than anything, I want to be part of a team that works together to make people feel safe, comfortable, and cared for at 35,000 feet.",
+      "starApplicable": false,
+      "tags": [
+        "motivation",
+        "common"
+      ]
+    },
+    {
+      "id": "p3",
+      "category": "personal",
+      "difficulty": "medium",
+      "question": "What are your greatest strengths?",
+      "whatTheyLookFor": "They want self-awareness and relevance. Only strengths that matter to the cabin crew role are meaningful here: composure, empathy, communication, teamwork, adaptability.",
+      "framework": "Choose 2–3 strengths. For each: name it, give a brief real example, connect it to the role. Do not list generic adjectives without evidence.",
+      "exampleAnswer": "My strongest quality is composure under pressure. When situations become tense or unexpected, I become calmer rather than reactive — I have noticed this in myself from previous customer-facing roles. My second strength is empathy; I naturally pick up on how people are feeling and adjust my approach accordingly. And I am a strong team communicator — I believe clear, respectful communication between crew members makes everything work better for the passengers as well.",
+      "starApplicable": false,
+      "tags": [
+        "self-awareness"
+      ]
+    },
+    {
+      "id": "p4",
+      "category": "personal",
+      "difficulty": "medium",
+      "question": "What is your greatest weakness?",
+      "whatTheyLookFor": "They are testing self-awareness and honesty, not looking for a flaw that disqualifies you. They want to see that you know yourself and are actively working on improvement.",
+      "framework": "Be honest but strategic. Choose a real weakness that is not critical to the role. Show what you are doing to improve it. Never say \"I work too hard\" — it reads as dishonest.",
+      "exampleAnswer": "I have a tendency to take on too much at once because I genuinely want to help with everything. In the past this sometimes meant I spread myself too thin. I have been working on this by learning to prioritize tasks more clearly and communicate when I need support rather than trying to handle everything alone. I think this is actually something this role will continue to teach me — effective teamwork means knowing when to ask for help.",
+      "starApplicable": false,
+      "tags": [
+        "self-awareness"
+      ]
+    },
+    {
+      "id": "p5",
+      "category": "personal",
+      "difficulty": "medium",
+      "question": "Where do you see yourself in five years?",
+      "whatTheyLookFor": "Airlines want long-term committed candidates, not people using this as a stepping stone. Show ambition within the industry — senior cabin crew, purser, trainer, or leadership.",
+      "framework": "Express genuine long-term commitment. Mention the possibility of growth within the airline — seniority, specialist roles, training roles. Show you have thought about a future in aviation.",
+      "exampleAnswer": "In five years I see myself as a senior cabin crew member who has built real expertise in service standards and perhaps taken on a mentoring role for new joiners. I am genuinely excited about the idea of growing within aviation — understanding the culture of the airline deeply, developing leadership skills within the cabin, and potentially progressing toward a purser or trainer role. I want to build a long career here, not just a first step.",
+      "starApplicable": false,
+      "tags": [
+        "ambition",
+        "long-term"
+      ]
+    },
+    {
+      "id": "p6",
+      "category": "personal",
+      "difficulty": "easy",
+      "question": "Tell me about your customer service experience.",
+      "whatTheyLookFor": "They want evidence that you have actually dealt with real customers under real conditions — not just in theory.",
+      "framework": "Give a specific example using a mini-STAR: Situation → what you did → positive outcome. Emphasize how you handled difficult moments, not just easy ones.",
+      "exampleAnswer": "For two years I worked in a hotel front desk role handling check-ins, complaints, and guest requests around the clock. I regularly dealt with frustrated guests — delayed rooms, billing issues, noise complaints. My approach was always to listen first, acknowledge the frustration, and then move to solutions. One guest arrived to find her reservation had been entered incorrectly on a fully booked night. I stayed calm, personally called three nearby hotels, arranged transport, covered her first night, and followed up the next day to ensure she was comfortable. She later wrote a positive review specifically mentioning my response.",
+      "starApplicable": false,
+      "tags": [
+        "experience",
+        "customer service"
+      ]
+    },
+    {
+      "id": "p7",
+      "category": "personal",
+      "difficulty": "easy",
+      "question": "Are you comfortable working in irregular hours and away from home?",
+      "whatTheyLookFor": "They are assessing your practical readiness and lifestyle awareness. They want candidates who have genuinely thought about the lifestyle, not idealized it.",
+      "framework": "Be honest. Show you understand the realities — early departures, late arrivals, time zone shifts, nights away — and that your lifestyle genuinely supports this.",
+      "exampleAnswer": "Yes, absolutely. I have considered this carefully rather than romanticizing it. I understand the role involves early mornings, late nights, overnight layovers, and irregular schedules — and I have structured my life to accommodate that. I do not have dependents that would make last-minute schedule changes problematic, I genuinely enjoy the variety of different destinations and environments, and I find that irregular schedules actually suit my personal energy better than a fixed nine-to-five routine.",
+      "starApplicable": false,
+      "tags": [
+        "lifestyle",
+        "practical"
+      ]
+    },
+    {
+      "id": "p8",
+      "category": "personal",
+      "difficulty": "medium",
+      "question": "How would your friends describe you?",
+      "whatTheyLookFor": "A way of getting an honest, outside perspective on your personality. They want traits relevant to the role: warmth, reliability, positivity, calm under pressure.",
+      "framework": "Choose 2–3 traits your friends would genuinely say. Give a brief story or evidence for at least one. Keep it real and conversational.",
+      "exampleAnswer": "My friends would probably say I am the person you call when something goes wrong — not because I always have the answer, but because I stay calm and help think it through. They would also say I am genuinely warm, that I notice when someone is having a rough day and check in. And they would definitely say I am organized — I am usually the one who plans the group trips. I think all three of those things translate directly into what good cabin crew needs to be.",
+      "starApplicable": false,
+      "tags": [
+        "personality"
+      ]
+    },
+    {
+      "id": "p9",
+      "category": "personal",
+      "difficulty": "easy",
+      "question": "Why should we hire you?",
+      "whatTheyLookFor": "Your ability to articulate your unique value clearly and confidently. They want to hear why you — specifically — are a strong fit.",
+      "framework": "Combine 3 elements: (1) Your most relevant skill, (2) A brief real evidence, (3) Your genuine enthusiasm for the airline. Avoid generic answers.",
+      "exampleAnswer": "You should hire me because I genuinely care about people, I stay composed when things get difficult, and I bring real experience in high-pressure service environments. I have spent years in customer-facing roles where the unexpected was normal, and I consistently found ways to turn difficult situations into positive ones. Beyond skills, I am someone who will represent your airline with genuine warmth — not scripted politeness. And I am here because I truly want to build a career with this airline specifically, not because it was the first application I sent.",
+      "starApplicable": false,
+      "tags": [
+        "pitch",
+        "common"
+      ]
+    },
+    {
+      "id": "p10",
+      "category": "personal",
+      "difficulty": "easy",
+      "question": "Do you have any questions for us?",
+      "whatTheyLookFor": "They are testing curiosity, preparation, and genuine interest in the role. Asking good questions signals engagement; asking no questions signals disinterest.",
+      "framework": "Prepare 2–3 genuine questions in advance. Good topics: training, team culture, expectations in the first months, what makes the best cabin crew here. Avoid asking about salary or days off in a first interview.",
+      "exampleAnswer": "Yes, I have a few. First — what does the training program look like, and what qualities tend to help new crew members succeed in it? Second — how would you describe the culture within the cabin crew team here? And third — what does an exceptional cabin crew member look like to you, after the first six months in the role?",
+      "starApplicable": false,
+      "tags": [
+        "questions",
+        "closing"
+      ]
+    },
+    {
+      "id": "cs1",
+      "category": "customer_service",
+      "difficulty": "medium",
+      "question": "Tell me about a time you dealt with a difficult customer.",
+      "whatTheyLookFor": "Evidence that you can handle conflict professionally, stay empathetic, and resolve situations calmly without escalating.",
+      "framework": "Use STAR: Situation (brief context) → Task (what was expected of you) → Action (what you specifically did) → Result (positive outcome). Focus on your behavior, not the customer's fault.",
+      "exampleAnswer": "A guest arrived at my hotel desk insisting his reservation had been confirmed for a suite, but our records showed a standard room. He was already frustrated from a delayed flight. I listened without interrupting, acknowledged how stressful the journey had been, and reviewed the reservation carefully. I could see he had booked a superior room, not a suite — but rather than correcting him bluntly, I showed him the booking details gently and offered to upgrade him to the best available room at no extra charge. He left satisfied, and thanked me specifically at checkout for how I had handled it.",
+      "starApplicable": true,
+      "tags": [
+        "conflict",
+        "resolution"
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "customer_service",
+      "difficulty": "medium",
+      "question": "How would you handle an angry passenger on board?",
+      "whatTheyLookFor": "Emotional intelligence, de-escalation skills, composure, and knowledge of when to involve senior crew.",
+      "framework": "Walk through your approach step by step: (1) Stay calm, (2) Move them away from others if needed, (3) Listen actively, (4) Acknowledge, (5) Offer a solution, (6) Know when to escalate.",
+      "exampleAnswer": "My first step would be to remain completely calm, because a calm presence is often itself de-escalating. I would approach the passenger at eye level, speak quietly, and genuinely listen to what is upsetting them before saying anything. Once I understand the issue, I would acknowledge their frustration — not agree that the airline is wrong, but validate that they are upset and that I want to help. Then I would offer whatever solutions are within my authority. If the situation was escalating despite my best efforts or involved safety, I would involve the senior crew member immediately.",
+      "starApplicable": false,
+      "tags": [
+        "conflict",
+        "de-escalation"
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "customer_service",
+      "difficulty": "easy",
+      "question": "What does excellent customer service mean to you?",
+      "whatTheyLookFor": "Your values and philosophy around service. They want warmth, consistency, and genuine care — not scripted politeness.",
+      "framework": "Define it in your own authentic words. Include: anticipating needs, treating every person as an individual, and maintaining quality even when it is difficult.",
+      "exampleAnswer": "Excellent customer service means making the person in front of you feel genuinely noticed and cared for — not just processed efficiently. It is anticipating what someone might need before they ask, adjusting your style to what the individual prefers, and maintaining that standard even when you are exhausted, busy, or dealing with something difficult. In the cabin crew context specifically, it means being the calm, kind face that someone trusts when they are nervous, jet-lagged, or frustrated.",
+      "starApplicable": false,
+      "tags": [
+        "values",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "customer_service",
+      "difficulty": "medium",
+      "question": "A passenger complains their meal is cold. How do you respond?",
+      "whatTheyLookFor": "Speed of response, professionalism, genuine care, and practical problem-solving.",
+      "framework": "Acknowledge, apologize briefly, act quickly, follow up. Show you take even small complaints seriously.",
+      "exampleAnswer": "I would apologize sincerely and immediately offer to replace it or warm it if possible given our on-board facilities. I would do this quickly without making them feel like a burden. After returning with the meal I would check in briefly to make sure they were happy. Small acts like this — taking even minor complaints seriously and responding with genuine care — are what turn a frustrated passenger into a loyal one.",
+      "starApplicable": false,
+      "tags": [
+        "complaint",
+        "practical"
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "customer_service",
+      "difficulty": "hard",
+      "question": "How do you give excellent service to passengers who speak very little English?",
+      "whatTheyLookFor": "Creativity, patience, empathy, and the ability to communicate beyond language.",
+      "framework": "Show your toolkit: body language, gestures, visual menus, translation apps, involving a bilingual colleague, patience and warmth.",
+      "exampleAnswer": "Language is only one tool for communication. With a passenger who has limited English, I would use a calm and warm tone, clear slow speech, simple vocabulary, and body language to make myself understood. I would use the cabin menu or any visual aids we have on board. If available, I would find a colleague who speaks their language. Most importantly, I would never make them feel embarrassed for the language barrier — I would make it clear through my manner that I want to help and I will find a way.",
+      "starApplicable": false,
+      "tags": [
+        "language",
+        "inclusion"
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "customer_service",
+      "difficulty": "medium",
+      "question": "Tell me about a time you went above and beyond for a customer.",
+      "whatTheyLookFor": "Genuine initiative and care that goes beyond the minimum requirement of the role.",
+      "framework": "STAR format. The \"action\" should clearly show you did more than required — and that it was natural, not performative.",
+      "exampleAnswer": "A couple at my hotel mentioned in passing that it was their anniversary. This was not a special request or a VIP booking — just a casual comment during check-in. I noted it, arranged for a small complimentary dessert to be delivered to their room that evening with a handwritten card from the team. The next morning they came to the desk specifically to thank me — they said it was the most thoughtful touch of their entire trip. It cost very little but made a lasting impression.",
+      "starApplicable": true,
+      "tags": [
+        "initiative",
+        "above and beyond"
+      ]
+    },
+    {
+      "id": "cs7",
+      "category": "customer_service",
+      "difficulty": "easy",
+      "question": "How do you stay patient with a passenger who is being unreasonable?",
+      "whatTheyLookFor": "Emotional regulation, professionalism, and the ability to separate the behavior from the person.",
+      "framework": "Show that you do not take it personally, you look for the root cause (usually fear, frustration, or discomfort), and you remain consistent in your professionalism.",
+      "exampleAnswer": "I remind myself that a passenger who is being difficult is usually expressing something — anxiety, frustration, discomfort, a bad travel day. The behavior in front of me is rarely about me personally. That reframe helps me stay calm and patient. I try to find the real underlying concern and address that, rather than responding to the surface-level behavior. And if I feel genuinely stretched, I know I can briefly step away, reset, and return with the same composure.",
+      "starApplicable": false,
+      "tags": [
+        "patience",
+        "emotional intelligence"
+      ]
+    },
+    {
+      "id": "cs8",
+      "category": "customer_service",
+      "difficulty": "medium",
+      "question": "A passenger is very upset about a flight delay. How do you handle it?",
+      "whatTheyLookFor": "Empathy, transparency (without overpromising), practical help, and maintaining composure.",
+      "framework": "Acknowledge the frustration, provide whatever information you can, do not make promises you cannot keep, and focus on what you CAN do for them right now.",
+      "exampleAnswer": "I would approach the passenger calmly, acknowledge that delays are genuinely disruptive and that their frustration is completely understandable. I would share whatever information is available about the delay without speculating or overpromising. I would focus on what I can do — offer a beverage, ensure they have a comfortable seat, answer any questions I can. I cannot fix the delay, but I can control how I make them feel during it. Making someone feel heard and cared for even in a frustrating situation is what cabin crew can uniquely do.",
+      "starApplicable": false,
+      "tags": [
+        "delay",
+        "empathy"
+      ]
+    },
+    {
+      "id": "cs9",
+      "category": "customer_service",
+      "difficulty": "easy",
+      "question": "How do you ensure every passenger feels equally valued?",
+      "whatTheyLookFor": "Inclusivity, fairness, and the ability to adapt service style without varying quality.",
+      "framework": "Talk about adapting communication style, being mindful of assumptions, treating everyone with equal warmth and respect.",
+      "exampleAnswer": "Equal value does not mean identical treatment — it means consistent quality of care. I adapt how I communicate based on cues from the passenger — some prefer brief and efficient service, others appreciate warmth and conversation. But every single passenger receives my full attention and genuine care regardless of seat class, appearance, or behavior. I am mindful of my body language and tone, and I consciously check that I am not giving disproportionately more attention to some passengers over others.",
+      "starApplicable": false,
+      "tags": [
+        "inclusivity",
+        "fairness"
+      ]
+    },
+    {
+      "id": "cs10",
+      "category": "customer_service",
+      "difficulty": "hard",
+      "question": "What would you do if a passenger made a racist or inappropriate comment to a colleague?",
+      "whatTheyLookFor": "Professional handling of sensitive situations. They want someone who stands up for colleagues without escalating dangerously.",
+      "framework": "Show you would intervene calmly and professionally, support your colleague, report the incident, and follow airline policy.",
+      "exampleAnswer": "I would not ignore it. My first priority would be my colleague — stepping in calmly to redirect the passenger and de-escalate the situation. I would not engage in an argument, but I would make it quietly and clearly known that all passengers and crew are treated with respect on board. I would then check in with my colleague privately, ensure they are okay, and report the incident to the senior crew member so it is properly documented. Airlines have clear policies on this, and I would follow them fully.",
+      "starApplicable": false,
+      "tags": [
+        "sensitive",
+        "colleague support"
+      ]
+    },
+    {
+      "id": "t1",
+      "category": "teamwork",
+      "difficulty": "medium",
+      "question": "Tell me about a time you worked effectively in a team.",
+      "whatTheyLookFor": "Evidence of genuine collaboration, communication, and contributing to a shared goal.",
+      "framework": "STAR format. The action should clearly show your specific contribution to the team, not just that a team succeeded.",
+      "exampleAnswer": "During the busiest week of the year at the hotel, three of our team members called in sick simultaneously. The remaining four of us met quickly before the shift and quietly redistributed responsibilities without any drama. I took on the check-in desk alone while covering phone inquiries, coordinated with housekeeping for room readiness updates, and supported a junior colleague who was nervous about handling this level of demand. The shift was demanding but we ran it smoothly. The general manager specifically noted our team's composure afterward.",
+      "starApplicable": true,
+      "tags": [
+        "teamwork",
+        "collaboration"
+      ]
+    },
+    {
+      "id": "t2",
+      "category": "teamwork",
+      "difficulty": "medium",
+      "question": "What would you do if you disagreed with a colleague's approach?",
+      "whatTheyLookFor": "Maturity, communication skills, and the ability to disagree respectfully without creating conflict.",
+      "framework": "Show that you address disagreements privately and professionally, focus on the shared goal, and remain open to being wrong yourself.",
+      "exampleAnswer": "I would raise it privately, not in front of passengers or other colleagues. I would express my perspective clearly and respectfully — \"I noticed X and I was wondering if we might approach it differently because Y.\" I try to be genuinely curious rather than corrective. And I stay open to the possibility that their approach is right and I was missing something. If we genuinely cannot align, and it affects passenger safety or service quality, I would involve the senior crew member for guidance.",
+      "starApplicable": false,
+      "tags": [
+        "conflict",
+        "communication"
+      ]
+    },
+    {
+      "id": "t3",
+      "category": "teamwork",
+      "difficulty": "easy",
+      "question": "How do you support a colleague who is having a difficult day?",
+      "whatTheyLookFor": "Empathy, team awareness, and the ability to support others without neglecting your own duties.",
+      "framework": "Show that you notice, you check in, and you take on practical support where possible — without creating a bigger issue from it.",
+      "exampleAnswer": "I pay attention to how my team members are doing — it is something I do naturally. If I notice a colleague is struggling, I check in quietly when there is a moment — just a brief \"Are you okay? I've got your back.\" I try to take on extra where I can without making it obvious in a way that would embarrass them. Good team dynamics are built on exactly these small moments of support, and I genuinely believe the whole team performs better when each person feels looked after.",
+      "starApplicable": false,
+      "tags": [
+        "empathy",
+        "support"
+      ]
+    },
+    {
+      "id": "t4",
+      "category": "teamwork",
+      "difficulty": "medium",
+      "question": "Describe your role in a team — are you a leader or a follower?",
+      "whatTheyLookFor": "Flexibility. Cabin crew need to both follow direction from senior crew and take initiative when needed.",
+      "framework": "Position yourself as adaptable — you can lead when needed but are equally comfortable following clear direction. Avoid presenting yourself as purely one or the other.",
+      "exampleAnswer": "I am genuinely comfortable in both positions, and I think the best team players are. I naturally step into a quiet leadership role when a situation is unclear and someone needs to coordinate — but I am equally happy supporting a lead who is strong and clear in their direction. On a flight, I respect the hierarchy and the authority of senior crew, and I would always operate within that structure. But within my area of responsibility, I take initiative, I own my work, and I do not wait to be told everything.",
+      "starApplicable": false,
+      "tags": [
+        "leadership",
+        "flexibility"
+      ]
+    },
+    {
+      "id": "t5",
+      "category": "teamwork",
+      "difficulty": "hard",
+      "question": "What would you do if you noticed a colleague not following safety procedures?",
+      "whatTheyLookFor": "Courage to address safety issues, professionalism in doing so, and understanding that safety is non-negotiable.",
+      "framework": "Be direct. Safety cannot be compromised. Show you would address it calmly and immediately — not ignore it, not cause a scene.",
+      "exampleAnswer": "I would raise it immediately and directly — safety is not something I would stay quiet about out of politeness. I would approach my colleague calmly and privately: \"I noticed you skipped the overhead bin check in that section — I just want to make sure we're both covered. Shall we go back?\" I would frame it as a shared responsibility rather than a criticism. If the behavior continued or was serious, I would inform the senior crew member. There is no acceptable version of looking the other way on safety.",
+      "starApplicable": false,
+      "tags": [
+        "safety",
+        "courage"
+      ]
+    },
+    {
+      "id": "t6",
+      "category": "teamwork",
+      "difficulty": "medium",
+      "question": "How do you communicate with crew members from different cultural backgrounds?",
+      "whatTheyLookFor": "Cultural intelligence, openness, and adaptability in communication.",
+      "framework": "Show that you are curious, respectful, and aware that different communication styles exist — and that you adapt.",
+      "exampleAnswer": "Cabin crew environments are naturally diverse, which I find genuinely energizing. I am mindful that communication norms vary — directness, tone, eye contact, personal space — and I try not to impose my own cultural assumptions on others. I listen and observe first. I am curious about how different colleagues prefer to communicate and what they need from a teammate. Shared professional goals unite diverse teams, and I focus on those common goals as the foundation.",
+      "starApplicable": false,
+      "tags": [
+        "diversity",
+        "culture"
+      ]
+    },
+    {
+      "id": "t7",
+      "category": "teamwork",
+      "difficulty": "easy",
+      "question": "What makes a cabin crew team work well together?",
+      "whatTheyLookFor": "Understanding of the unique teamwork demands of cabin crew: brief acquaintance, high trust, clear communication, and shared standards.",
+      "framework": "Focus on: clear communication, mutual respect, shared safety culture, flexibility, and covering for each other.",
+      "exampleAnswer": "What makes cabin crew teamwork unique is that you often work with people you have met that morning and need to function as a highly effective unit within hours. That requires clear communication from the first briefing, a culture of genuine mutual respect, and trust that every person will do their job to standard. I think proactive communication — updating each other without being asked, flagging issues early — is the single most important factor. The best teams I have been part of communicate constantly and support each other naturally.",
+      "starApplicable": false,
+      "tags": [
+        "teamwork",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "pr1",
+      "category": "pressure",
+      "difficulty": "medium",
+      "question": "How do you handle stress?",
+      "whatTheyLookFor": "That you have genuine coping strategies, that stress does not compromise your service quality, and that you are self-aware.",
+      "framework": "Describe your personal approach. Give a real example if you can. Show that stress is manageable for you without dismissing it.",
+      "exampleAnswer": "I manage stress by staying focused on what is in front of me — the next task, the next passenger. When I notice I am getting overwhelmed, I take a deliberate breath, organize what I need to do, and tackle one thing at a time. I have worked in environments where stress was genuinely high — a fully booked hotel with complaints, understaffed shifts — and I found that calm, systematic thinking got me through each time. I also recover well — I do not carry stress from one situation into the next.",
+      "starApplicable": false,
+      "tags": [
+        "stress management"
+      ]
+    },
+    {
+      "id": "pr2",
+      "category": "pressure",
+      "difficulty": "medium",
+      "question": "How would you manage multiple passengers needing help simultaneously?",
+      "whatTheyLookFor": "Prioritization skills, calmness, and the ability to triage needs without making anyone feel ignored.",
+      "framework": "Show you prioritize by urgency (safety first, then welfare), acknowledge everyone, and communicate clearly.",
+      "exampleAnswer": "I would quickly assess which needs are urgent — safety concerns or medical issues take absolute priority. For non-urgent requests I would acknowledge each passenger with eye contact and a brief \"I will be with you in just a moment\" so nobody feels invisible. I would work through them systematically. Good communication in those moments — being clear about what I am doing and why — prevents frustration and keeps everyone feeling attended to even when they are waiting.",
+      "starApplicable": false,
+      "tags": [
+        "prioritization",
+        "multitasking"
+      ]
+    },
+    {
+      "id": "pr3",
+      "category": "pressure",
+      "difficulty": "medium",
+      "question": "Tell me about a time you worked under significant pressure.",
+      "whatTheyLookFor": "Real evidence of composure under fire, with a clear positive outcome.",
+      "framework": "STAR format. Make sure the pressure is genuine and the outcome is positive. Show your specific actions, not just the fact that it worked out.",
+      "exampleAnswer": "On one particularly busy evening at the hotel, we had a large group check-in, a wedding event, a billing system crash, and two separate guest complaints all happening simultaneously. I prioritized the most time-sensitive item — the group check-in — while delegating the event queries to a colleague, manually handling billing for the urgent cases, and committing to return to the complaints within ten minutes. I was very systematic, very calm, and very communicative with both guests and colleagues throughout. Everything was resolved within two hours and we received no complaints about the response time.",
+      "starApplicable": true,
+      "tags": [
+        "pressure",
+        "composure"
+      ]
+    },
+    {
+      "id": "pr4",
+      "category": "pressure",
+      "difficulty": "hard",
+      "question": "How would you handle a situation where you feel overwhelmed during a flight?",
+      "whatTheyLookFor": "Honesty, self-awareness, and the ability to seek support without abandoning duty.",
+      "framework": "Show that you would acknowledge it internally, communicate with a colleague, take a brief reset, and return to full function. You would not collapse or pretend everything is fine.",
+      "exampleAnswer": "I would not ignore it or push through in a way that compromised my effectiveness. I would communicate with a colleague — even a brief \"I need 60 seconds, can you cover this section?\" — take a moment to breathe and reset, then come back. Being honest with your team costs almost nothing and prevents much bigger problems. The worst response is to silently deteriorate in performance and affect passengers without your teammates even knowing you are struggling.",
+      "starApplicable": false,
+      "tags": [
+        "self-awareness",
+        "seeking support"
+      ]
+    },
+    {
+      "id": "pr5",
+      "category": "pressure",
+      "difficulty": "medium",
+      "question": "How do you stay focused during a long-haul flight?",
+      "whatTheyLookFor": "Professionalism, energy management, and awareness that passenger safety does not have off-hours.",
+      "framework": "Talk about physical strategies (hydration, movement, rest rotation), mental strategies (staying present with each passenger), and professional commitment.",
+      "exampleAnswer": "Long-haul is genuinely demanding — there is no pretending otherwise. I stay focused by taking care of basics: staying hydrated, eating properly on breaks, making the most of rest rotations. Mentally, I stay engaged by focusing on each passenger interaction individually rather than thinking about the hours remaining. I also find that staying connected with my crew — checking in, communicating, supporting each other — makes the energy more sustainable than working in isolation.",
+      "starApplicable": false,
+      "tags": [
+        "stamina",
+        "long-haul"
+      ]
+    },
+    {
+      "id": "al1",
+      "category": "airline",
+      "difficulty": "medium",
+      "question": "Why do you want to join this airline specifically?",
+      "whatTheyLookFor": "Genuine research and authentic motivation. They can tell the difference between a researched answer and a generic one.",
+      "framework": "Research the airline: service standards, values, destinations, reputation, culture. Connect their specifics to your own values. Show this was a deliberate choice.",
+      "exampleAnswer": "I have researched your airline carefully and what stands out to me is the consistency of your service reputation — not just in awards but in the actual passenger feedback, which speaks to genuine everyday quality rather than occasional excellence. Your culture of crew development and long-term careers within the airline is exactly what I am looking for — I am not here for a short tenure. And I am drawn to the route network, which means I would be working across genuinely diverse cultures and passenger profiles, which suits my strengths and interests.",
+      "starApplicable": false,
+      "tags": [
+        "research",
+        "motivation"
+      ]
+    },
+    {
+      "id": "al2",
+      "category": "airline",
+      "difficulty": "easy",
+      "question": "What do you know about our airline?",
+      "whatTheyLookFor": "Whether you have done your homework. A candidate who knows nothing about the airline is sending a clear message.",
+      "framework": "Prepare 5–6 genuine facts: founding year, main hub, destinations, fleet, recent news, service awards, values, CEO, alliance membership.",
+      "exampleAnswer": "I know your airline was founded in [year] and operates from [hub city] with routes spanning [regions]. You are part of the [alliance] which gives you [benefit]. You have won [relevant awards] for in-flight service and your cabin crew training is recognized in the industry as one of the most thorough programs. I also read about your [recent news/initiative] which I found genuinely interesting. Your fleet is primarily [aircraft types] with expansion plans I have been following.",
+      "starApplicable": false,
+      "tags": [
+        "research",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "al3",
+      "category": "airline",
+      "difficulty": "medium",
+      "question": "How would you represent our brand when you are not in uniform?",
+      "whatTheyLookFor": "Brand consciousness, professionalism, and understanding that cabin crew are ambassadors beyond the aircraft.",
+      "framework": "Show you understand the responsibility and take it seriously — appearance, social media behavior, how you speak about the airline.",
+      "exampleAnswer": "I understand that as a cabin crew member I represent the airline even when I am off-duty — particularly when I am traveling in uniform or have identified myself as crew. I would maintain the standards I bring to work: professional appearance, positive and thoughtful communication about the airline, and behavior that I would be comfortable with my employer seeing. I am also mindful of social media — I would never share anything about routes, passengers, or colleagues that could embarrass myself or the airline.",
+      "starApplicable": false,
+      "tags": [
+        "brand",
+        "professionalism"
+      ]
+    },
+    {
+      "id": "al4",
+      "category": "airline",
+      "difficulty": "hard",
+      "question": "How would you handle a situation where a passenger was critical of our airline?",
+      "whatTheyLookFor": "Brand loyalty, composure, and the ability to represent the airline professionally without being defensive.",
+      "framework": "Acknowledge the feedback genuinely, represent the airline's best qualities, avoid becoming defensive, and report feedback through proper channels.",
+      "exampleAnswer": "I would listen to the criticism genuinely — not dismissively. I would acknowledge their experience: \"I am sorry to hear that was your experience — that is not what we want for any passenger.\" I would not argue with them or make excuses. If there is something I can do to improve their current experience, I would do it. And I would note the feedback internally so it reaches the right people — constructive passenger feedback is genuinely valuable to any airline.",
+      "starApplicable": false,
+      "tags": [
+        "brand",
+        "feedback"
+      ]
+    },
+    {
+      "id": "b1",
+      "category": "behavioral",
+      "difficulty": "medium",
+      "question": "Tell me about a time you handled a difficult situation.",
+      "whatTheyLookFor": "Composure, problem-solving, and resilience when things did not go to plan.",
+      "framework": "STAR: Set the scene briefly, explain what was expected, describe exactly what you did, and share the positive outcome and what you learned.",
+      "exampleAnswer": "During a particularly demanding shift, a system failure meant we lost access to all digital booking records just as a wedding party of forty guests arrived to check in. My task was to check in all forty guests quickly and accurately using only paper records and manual keys. I briefed the team, divided guests into groups, and worked systematically through the manual process. It took longer than digital check-in but every guest was in their correct room within 45 minutes. I learned how valuable calm, organized communication is when systems fail.",
+      "starApplicable": true,
+      "tags": [
+        "resilience",
+        "problem solving"
+      ]
+    },
+    {
+      "id": "b2",
+      "category": "behavioral",
+      "difficulty": "medium",
+      "question": "Give an example of a time you showed initiative.",
+      "whatTheyLookFor": "Self-direction, proactivity, and the ability to act beyond the minimum required.",
+      "framework": "STAR. The action must clearly show you did something without being asked — something that benefited the team, a guest, or the organization.",
+      "exampleAnswer": "I noticed that our hotel lost several guests each week who were asking about local restaurant recommendations and were receiving inconsistent answers from different team members. Without being asked, I spent two days of my days off researching and creating a simple curated restaurant guide organized by category and budget. I shared it with the team and the front desk began using it immediately. Guest questions about dining reduced noticeably, and we received several comments specifically praising our recommendations.",
+      "starApplicable": true,
+      "tags": [
+        "initiative",
+        "proactive"
+      ]
+    },
+    {
+      "id": "b3",
+      "category": "behavioral",
+      "difficulty": "hard",
+      "question": "Tell me about a time you made a mistake at work.",
+      "whatTheyLookFor": "Honesty, accountability, and the ability to learn. They are not looking for perfection — they are looking for maturity.",
+      "framework": "Be honest. Do not pick something trivial or clearly fake. Show you acknowledged it, corrected it, and learned from it. Own it fully.",
+      "exampleAnswer": "Early in my hotel role, I double-booked a room due to an error in updating the reservation system — something I had rushed through because the lobby was busy. I discovered the error just as the second guest was arriving. I immediately told my supervisor, took full accountability, arranged alternative accommodation for the second guest with an upgrade and complimentary meal. I then personally apologized to both guests. I learned to slow down on reservation updates regardless of how busy the lobby is, and I have not made that mistake since.",
+      "starApplicable": true,
+      "tags": [
+        "accountability",
+        "learning"
+      ]
+    },
+    {
+      "id": "b4",
+      "category": "behavioral",
+      "difficulty": "medium",
+      "question": "Describe a time you had to adapt quickly to a sudden change.",
+      "whatTheyLookFor": "Flexibility, composure under uncertainty, and the ability to function effectively in an unplanned situation.",
+      "framework": "STAR. The situation should involve a genuine, meaningful change — not a minor inconvenience. Your response should show active adaptation rather than passive endurance.",
+      "exampleAnswer": "Three hours into a major hotel event, our head chef was taken ill and had to leave. I was not in the kitchen, but the event manager asked me to help coordinate the service response. I worked with the remaining kitchen team, reorganized the serving schedule, communicated updates to waiting guests warmly, and helped redirect courses. The event completed with a 20-minute delay that most guests did not even notice. I was proud of how the team pulled together under pressure.",
+      "starApplicable": true,
+      "tags": [
+        "adaptability",
+        "change"
+      ]
+    },
+    {
+      "id": "b5",
+      "category": "behavioral",
+      "difficulty": "easy",
+      "question": "Tell me about a time you received constructive feedback. How did you respond?",
+      "whatTheyLookFor": "Openness to feedback, maturity, and commitment to improvement.",
+      "framework": "Show you received it positively, took specific action, and improved. Do not be defensive or dismiss the feedback even retrospectively.",
+      "exampleAnswer": "My manager once told me that during busy periods, my communication with colleagues became very terse and could come across as short or cold even when I was not feeling that way. I took that seriously — I had not realized my tone was changing under pressure. I started consciously checking my tone during busy moments, using softer language and adding a quick acknowledgment to requests before responding. My manager mentioned the improvement about a month later without me prompting the conversation.",
+      "starApplicable": true,
+      "tags": [
+        "feedback",
+        "growth"
+      ]
+    },
+    {
+      "id": "p11",
+      "category": "personal",
+      "difficulty": "easy",
+      "question": "What do you enjoy most about working with people?",
+      "whatTheyLookFor": "Genuine enthusiasm for human connection — not just tolerance of it.",
+      "framework": "Be specific and authentic. Connect your enjoyment to what cabin crew actually involves.",
+      "exampleAnswer": "I find genuine energy in the variety of human interaction — every person is different, every conversation is different, and I find that endlessly interesting rather than draining. I particularly enjoy moments when I can make someone's day noticeably better — even a small gesture can shift someone's mood completely, and I love being in a role where that is possible dozens of times a day.",
+      "starApplicable": false,
+      "tags": [
+        "motivation",
+        "people"
+      ]
+    },
+    {
+      "id": "p12",
+      "category": "personal",
+      "difficulty": "medium",
+      "question": "How do you handle rejection or negative feedback from a passenger?",
+      "whatTheyLookFor": "Emotional resilience and the ability not to take interactions personally.",
+      "framework": "Acknowledge that it can sting briefly, but show a fast recovery and professional reframe.",
+      "exampleAnswer": "I try not to internalize negative feedback personally — it is very rarely about me as a person. I listen to what the passenger is actually saying, take any valid point on board, and move forward. If the feedback is completely unreasonable, I remind myself that the passenger may be stressed or unwell, and I still give my best response. I do not carry one difficult interaction into the next — I reset quickly.",
+      "starApplicable": false,
+      "tags": [
+        "resilience",
+        "emotional intelligence"
+      ]
+    },
+    {
+      "id": "cs11",
+      "category": "customer_service",
+      "difficulty": "medium",
+      "question": "A passenger asks for something that is not available on board. How do you respond?",
+      "whatTheyLookFor": "Problem-solving, honesty, and the ability to redirect without simply saying \"no.\"",
+      "framework": "Acknowledge the request, explain clearly but briefly, offer alternatives.",
+      "exampleAnswer": "\"I am sorry, that is not something we have available today — let me see what I can offer instead.\" Then I give them the best available alternative. I never just say \"no\" and walk away. Even when the answer is a limitation, I make sure the passenger feels helped rather than rejected.",
+      "starApplicable": false,
+      "tags": [
+        "limitations",
+        "alternatives"
+      ]
+    },
+    {
+      "id": "cs12",
+      "category": "customer_service",
+      "difficulty": "easy",
+      "question": "How would you greet passengers boarding the aircraft?",
+      "whatTheyLookFor": "Warmth, professionalism, genuine welcome — not robotic scripted greetings.",
+      "framework": "Show natural, warm communication — eye contact, genuine smile, directional help if needed.",
+      "exampleAnswer": "With genuine warmth and eye contact — a real smile and a natural greeting. I would make brief eye contact with each passenger and offer assistance with seating or baggage if someone looks uncertain. I want each person to feel welcomed as an individual, not processed. The first impression sets the tone for the entire flight experience.",
+      "starApplicable": false,
+      "tags": [
+        "greeting",
+        "first impression"
+      ]
+    },
+    {
+      "id": "t8",
+      "category": "teamwork",
+      "difficulty": "easy",
+      "question": "How do you build rapport quickly with a new crew?",
+      "whatTheyLookFor": "Social intelligence and the ability to function effectively with strangers quickly.",
+      "framework": "Show active listening, positive attitude, respect for seniority, and professional engagement from the first briefing.",
+      "exampleAnswer": "I make a point of being genuinely present in the pre-flight briefing — listening carefully, introducing myself properly, and being warm without being overly familiar. I show respect for the chain of command while contributing where appropriate. I find that professionalism and genuine warmth together build trust quickly even with people you have just met.",
+      "starApplicable": false,
+      "tags": [
+        "rapport",
+        "new team"
+      ]
+    },
+    {
+      "id": "pr6",
+      "category": "pressure",
+      "difficulty": "hard",
+      "question": "How would you respond if there was a medical emergency on board?",
+      "whatTheyLookFor": "Knowledge of basic protocol, composure, willingness to act, and teamwork.",
+      "framework": "Show: alert senior crew immediately, ask for medical professional on board, follow training, stay calm with surrounding passengers.",
+      "exampleAnswer": "I would immediately notify the senior cabin crew member and the flight deck. I would ask over the PA if there is a medical professional on board. I would follow the airline's emergency medical procedures exactly as trained — access the medical kit, follow first aid protocols, clear the area, keep surrounding passengers calm. I would remain with the passenger and the responding professional and communicate clearly with my crew throughout. Training exists precisely for these moments, and following it calmly is the most important thing.",
+      "starApplicable": false,
+      "tags": [
+        "medical",
+        "emergency"
+      ]
+    },
+    {
+      "id": "al5",
+      "category": "airline",
+      "difficulty": "medium",
+      "question": "What do you think are the biggest challenges facing the airline industry today?",
+      "whatTheyLookFor": "Industry awareness and the ability to discuss it intelligently.",
+      "framework": "Mention 2–3 real current challenges: sustainability, post-pandemic recovery, technology, competition. Connect to the airline if possible.",
+      "exampleAnswer": "A few come to mind. First, sustainability — the industry is under increasing pressure to reduce its environmental impact and how airlines respond to this will define their brands. Second, the balance between technology and human touch — automation is increasing but passengers still want genuine human warmth. And third, the consistency of service quality as airlines scale and recruit rapidly. How you maintain standards while growing quickly is a real challenge.",
+      "starApplicable": false,
+      "tags": [
+        "industry",
+        "awareness"
+      ]
+    },
+    {
+      "id": "b6",
+      "category": "behavioral",
+      "difficulty": "medium",
+      "question": "Tell me about a time you helped a colleague learn something new.",
+      "whatTheyLookFor": "Generosity, patience, and the ability to support others' growth.",
+      "framework": "STAR. Show clear, patient communication and a positive outcome for the colleague.",
+      "exampleAnswer": "A new colleague was struggling with the room reservation system and becoming visibly stressed during busy periods. I offered to walk her through it step by step during a quiet moment, not by doing it for her, but by guiding her through each stage while she performed it herself. Within a week she was handling it independently. She told me that approach had helped her more than reading the manual. I enjoy helping colleagues develop — it makes the whole team stronger.",
+      "starApplicable": true,
+      "tags": [
+        "mentoring",
+        "teaching"
+      ]
+    },
+    {
+      "id": "b7",
+      "category": "behavioral",
+      "difficulty": "hard",
+      "question": "Describe a time you had to enforce a rule that a customer disagreed with.",
+      "whatTheyLookFor": "The ability to hold firm on policies while remaining empathetic and professional.",
+      "framework": "Show you explained clearly, remained empathetic, did not apologize for the rule itself, and handled the pushback calmly.",
+      "exampleAnswer": "A hotel guest insisted on bringing a large dog into a no-pets property. He was quite upset when I explained the policy. I listened to his frustration fully, acknowledged how inconvenient it was, and explained the policy clearly and without apology — it exists for all guests' comfort. I then actively helped him find nearby pet-friendly accommodation. I held firm on the policy because bending it would have been unfair to all other guests, but I did everything I could to solve his practical problem.",
+      "starApplicable": true,
+      "tags": [
+        "rules",
+        "firmness"
+      ]
+    },
+    {
+      "id": "p13",
+      "category": "personal",
+      "difficulty": "easy",
+      "question": "What languages do you speak?",
+      "whatTheyLookFor": "Genuine language ability that would be an asset on board.",
+      "framework": "Be honest about your level. Do not exaggerate — you may be tested. Mention languages and realistic proficiency.",
+      "exampleAnswer": "My first language is [language] and I am fully fluent in English. I also have conversational [language] which I am actively improving. I understand that language skills on board are directly valuable to passenger service, and I am committed to continuing to develop in this area.",
+      "starApplicable": false,
+      "tags": [
+        "languages",
+        "skills"
+      ]
+    },
+    {
+      "id": "p14",
+      "category": "personal",
+      "difficulty": "easy",
+      "question": "How do you stay calm in stressful situations?",
+      "whatTheyLookFor": "A genuine personal coping approach — not a textbook answer.",
+      "framework": "Be specific and authentic. Give a real technique you actually use.",
+      "exampleAnswer": "I have learned to recognize the physical signs of stress in myself — my breathing shortens, my movements speed up. When I notice those signs, I deliberately slow my breath and my pace for a few seconds. It sounds simple but it genuinely resets my nervous system. After that, I focus on the immediate task rather than the whole situation. I cannot fix everything at once, but I can handle what is directly in front of me.",
+      "starApplicable": false,
+      "tags": [
+        "stress management"
+      ]
+    },
+    {
+      "id": "cs13",
+      "category": "customer_service",
+      "difficulty": "medium",
+      "question": "How would you handle a passenger who is afraid of flying?",
+      "whatTheyLookFor": "Empathy, patience, practical comfort skills, and communication.",
+      "framework": "Show: acknowledgment without dismissal, calm presence, specific comforting actions, regular check-ins.",
+      "exampleAnswer": "I would treat their fear with complete seriousness — never dismiss or minimize it. I would introduce myself by name, check in with them during boarding, offer a window or aisle preference based on what helps them feel better, and explain any unusual sounds or movements before they happen. I would check in quietly during the flight — not in a way that highlights their anxiety to others, but personally and discreetly. Small regular touches of reassurance can make a flight genuinely manageable for a nervous flier.",
+      "starApplicable": false,
+      "tags": [
+        "fear",
+        "empathy"
+      ]
+    },
+    {
+      "id": "al6",
+      "category": "airline",
+      "difficulty": "easy",
+      "question": "What do you think makes a great cabin crew member?",
+      "whatTheyLookFor": "Values alignment with what the airline believes and evidence that you embody those qualities.",
+      "framework": "Choose 3–4 genuine qualities. Connect them to specific cabin crew realities, not just generic \"people person\" language.",
+      "exampleAnswer": "I think the best cabin crew combine genuine warmth with real composure — they can be caring and human while holding it together when things go wrong. They are also deeply aware — they notice things: a nervous passenger, a colleague who needs backup, a situation developing before it escalates. And they take pride in their work without ego — the quiet satisfaction of a flight where every passenger was cared for well, even if nobody specifically noticed.",
+      "starApplicable": false,
+      "tags": [
+        "qualities",
+        "values"
+      ]
+    },
+    {
+      "id": "pr7",
+      "category": "pressure",
+      "difficulty": "medium",
+      "question": "How do you bounce back after a particularly difficult flight or day?",
+      "whatTheyLookFor": "Resilience, self-care awareness, and the ability to separate difficult shifts from the next one.",
+      "framework": "Show you have genuine recovery strategies and that you do not carry one difficult experience into the next.",
+      "exampleAnswer": "I give myself a brief period to decompress — whether that is a walk, a quiet hour, or just acknowledging to myself that it was a difficult day. I try not to replay it repeatedly or catastrophize. I find it helpful to note one or two things I handled well even within a hard day — it maintains perspective. And then I genuinely move forward. Each flight is its own experience, and arriving at the next one with the weight of the previous one would not be fair to those passengers or myself.",
+      "starApplicable": false,
+      "tags": [
+        "resilience",
+        "recovery"
+      ]
+    },
+    {
+      "id": "cs14",
+      "category": "customer_service",
+      "difficulty": "hard",
+      "question": "How would you handle an intoxicated passenger?",
+      "whatTheyLookFor": "Knowledge of airline protocol, safety awareness, and composure.",
+      "framework": "Show: do not serve more alcohol, inform senior crew, be discreet, move other passengers if needed, follow airline policy.",
+      "exampleAnswer": "First, I would stop serving alcohol to that passenger without drawing attention to it — \"I'll be back with your next drink shortly\" and then simply not return with it. I would alert the senior cabin crew immediately. I would ensure the passenger is safe and seated, keep surrounding passengers comfortable, and follow the airline's intoxicated passenger protocol precisely. If the behavior becomes disruptive or threatening, I would escalate to the captain immediately. Safety of all passengers takes absolute precedence.",
+      "starApplicable": false,
+      "tags": [
+        "intoxication",
+        "safety"
+      ]
+    },
+    {
+      "id": "b8",
+      "category": "behavioral",
+      "difficulty": "medium",
+      "question": "Tell me about a time you successfully resolved a conflict between two people.",
+      "whatTheyLookFor": "Mediation ability, neutrality, and communication skills.",
+      "framework": "STAR. Show you listened to both sides, remained neutral, and found a resolution both parties accepted.",
+      "exampleAnswer": "Two colleagues had a significant misunderstanding about shift coverage that had created real tension in the team. I asked to speak with each of them separately first — just listening without taking sides. Then I brought them together in a calm moment and helped them walk through what had actually been agreed versus what each had understood. The issue was largely a communication failure, not bad intent on either side. Clarifying that took the heat out of it completely. They resolved it professionally and the tension lifted.",
+      "starApplicable": true,
+      "tags": [
+        "conflict",
+        "mediation"
+      ]
+    },
+    {
+      "id": "p15",
+      "category": "personal",
+      "difficulty": "medium",
+      "question": "How do you handle a situation where you don't know the answer to a passenger's question?",
+      "whatTheyLookFor": "Honesty, resourcefulness, and the ability to not bluff.",
+      "framework": "Show you would acknowledge, find the answer rather than guessing, and follow through.",
+      "exampleAnswer": "I would be honest immediately — \"I want to give you the right information so let me check and come back to you.\" I would never guess or fabricate an answer, particularly on safety or policy questions where accuracy matters. I would find the answer from a senior crew member or from on-board resources and return to the passenger promptly. Following through on that promise matters — I would always circle back.",
+      "starApplicable": false,
+      "tags": [
+        "honesty",
+        "resourcefulness"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "personal",
+      "label": "Personal",
+      "icon": "User"
+    },
+    {
+      "id": "customer_service",
+      "label": "Customer Service",
+      "icon": "Heart"
+    },
+    {
+      "id": "teamwork",
+      "label": "Teamwork",
+      "icon": "Users"
+    },
+    {
+      "id": "pressure",
+      "label": "Under Pressure",
+      "icon": "Zap"
+    },
+    {
+      "id": "airline",
+      "label": "About the Airline",
+      "icon": "Plane"
+    },
+    {
+      "id": "behavioral",
+      "label": "Behavioral (STAR)",
+      "icon": "Star"
+    }
+  ]
+}

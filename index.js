@@ -1,0 +1,52 @@
+import express from 'express';
+import cors from 'cors';
+import dotenv from 'dotenv';
+
+import questionsRouter from './routes/questions.js';
+import vocabularyRouter from './routes/vocabulary.js';
+import scenariosRouter from './routes/scenarios.js';
+import exercisesRouter from './routes/exercises.js';
+import knowledgeRouter from './routes/knowledge.js';
+import progressRouter from './routes/progress.js';
+import aiRouter from './routes/ai.js';
+
+dotenv.config();
+
+const app = express();
+const PORT = process.env.PORT || 5001;
+
+// CORS setup allowing all origins (Vercel frontend, local dev, Render)
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
+app.use(express.json());
+
+// API Routes
+app.use('/api/questions', questionsRouter);
+app.use('/api/vocabulary', vocabularyRouter);
+app.use('/api/scenarios', scenariosRouter);
+app.use('/api/exercises', exercisesRouter);
+app.use('/api/knowledge', knowledgeRouter);
+app.use('/api/progress', progressRouter);
+app.use('/api/ai', aiRouter);
+
+// Health Check Endpoint (For Render.com & Vercel)
+app.get('/api/health', (req, res) => {
+  res.json({
+    status: 'ok',
+    app: 'Aviation Practice Express Backend (Render)',
+    user: 'Nishtha',
+    time: new Date().toISOString(),
+  });
+});
+
+app.get('/', (req, res) => {
+  res.send('✈️ Aviation Practice Express Backend Server is running smoothly!');
+});
+
+app.listen(PORT, () => {
+  console.log(`✈️ Aviation Practice Express Backend running on http://localhost:${PORT}`);
+});
