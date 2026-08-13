@@ -126,15 +126,34 @@ router.post('/question', async (req, res) => {
 
 // POST /api/progress/scenario
 router.post('/scenario', async (req, res) => {
-  const { scenarioId } = req.body;
+  const { scenarioId, selectedOption, isCorrect } = req.body;
   try {
     const doc = await getNishthaProgress();
+    if (!doc.scenarioResponses) doc.scenarioResponses = [];
+    
+    if (selectedOption !== undefined) {
+      const existingIdx = doc.scenarioResponses.findIndex((r) => r.scenarioId === scenarioId);
+      if (existingIdx >= 0) {
+        doc.scenarioResponses[existingIdx].selectedOption = selectedOption;
+        doc.scenarioResponses[existingIdx].isCorrect = Boolean(isCorrect);
+        doc.scenarioResponses[existingIdx].answeredAt = new Date();
+      } else {
+        doc.scenarioResponses.push({
+          scenarioId,
+          selectedOption,
+          isCorrect: Boolean(isCorrect),
+          answeredAt: new Date(),
+        });
+      }
+    }
+
     if (!doc.completedScenarios.includes(scenarioId)) {
       doc.completedScenarios.push(scenarioId);
       doc.scenariosCompleted += 1;
       doc.categoryProgress.scenarios = Math.min(100, doc.categoryProgress.scenarios + 2);
-      await doc.save();
     }
+    
+    await doc.save();
     res.json({ success: true, progress: doc });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
