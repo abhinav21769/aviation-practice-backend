@@ -1,27 +1,22 @@
 import express from 'express';
-import fs from 'fs';
-import path from 'path';
+import Exercise from '../models/Exercise.js';
 
 const router = express.Router();
-const dataPath = path.resolve('data/englishExercises.json');
 
-function getData() {
-  const content = fs.readFileSync(dataPath, 'utf8');
-  return JSON.parse(content);
-}
+const categories = [
+  { id: 'politeness', label: 'Polite Transformations', icon: 'Smile' },
+  { id: 'announcements', label: 'PA Announcements', icon: 'Megaphone' },
+  { id: 'dialogues', label: 'Passenger Dialogues', icon: 'MessageSquare' },
+  { id: 'grammar', label: 'Aviation Grammar', icon: 'CheckCircle2' },
+];
 
 // GET /api/exercises
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   try {
-    const { exercises, categories } = getData();
     const { category } = req.query;
-
-    let filtered = exercises;
-    if (category) {
-      filtered = filtered.filter((e) => e.category === category);
-    }
-
-    res.json({ success: true, count: filtered.length, categories, exercises: filtered });
+    const filter = category ? { category } : {};
+    const exercises = await Exercise.find(filter).lean();
+    res.json({ success: true, count: exercises.length, categories, exercises });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }

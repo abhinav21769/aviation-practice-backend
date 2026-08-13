@@ -1,37 +1,32 @@
 import express from 'express';
-import fs from 'fs';
-import path from 'path';
+import Knowledge from '../models/Knowledge.js';
 
 const router = express.Router();
-const dataPath = path.resolve('data/knowledgeTopics.json');
 
-function getData() {
-  const content = fs.readFileSync(dataPath, 'utf8');
-  return JSON.parse(content);
-}
+const categories = [
+  { id: 'airline_profiles', label: 'Airline Profiles', icon: 'Building' },
+  { id: 'aircraft_types', label: 'Aircraft Types', icon: 'Plane' },
+  { id: 'safety_systems', label: 'Safety Systems', icon: 'ShieldCheck' },
+  { id: 'grooming_standards', label: 'Grooming Standards', icon: 'Sparkles' },
+  { id: 'service_procedures', label: 'Service Procedures', icon: 'Utensils' },
+];
 
 // GET /api/knowledge
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   try {
-    const { topics, categories } = getData();
     const { category } = req.query;
-
-    let filtered = topics;
-    if (category) {
-      filtered = filtered.filter((t) => t.category === category);
-    }
-
-    res.json({ success: true, count: filtered.length, categories, topics: filtered });
+    const filter = category ? { category } : {};
+    const topics = await Knowledge.find(filter).lean();
+    res.json({ success: true, count: topics.length, categories, topics });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }
 });
 
 // GET /api/knowledge/:id
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
-    const { topics } = getData();
-    const topic = topics.find((t) => t.id === req.params.id);
+    const topic = await Knowledge.findOne({ id: req.params.id }).lean();
     if (!topic) {
       return res.status(404).json({ success: false, message: 'Topic not found' });
     }

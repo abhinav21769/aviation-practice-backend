@@ -1,40 +1,46 @@
 import express from 'express';
-import fs from 'fs';
-import path from 'path';
+import Vocabulary from '../models/Vocabulary.js';
 
 const router = express.Router();
-const dataPath = path.resolve('data/vocabulary.json');
 
-function getData() {
-  const content = fs.readFileSync(dataPath, 'utf8');
-  return JSON.parse(content);
-}
+const categories = [
+  { id: 'airport', label: 'Airport', icon: 'Building2' },
+  { id: 'aircraft', label: 'Aircraft', icon: 'Plane' },
+  { id: 'cabin', label: 'Cabin', icon: 'LayoutGrid' },
+  { id: 'safety', label: 'Safety', icon: 'ShieldAlert' },
+  { id: 'service', label: 'Service', icon: 'Coffee' },
+  { id: 'communication', label: 'Communication', icon: 'Radio' },
+  { id: 'medical', label: 'Medical', icon: 'Cross' },
+  { id: 'weather', label: 'Weather', icon: 'CloudRain' },
+];
 
 // GET /api/vocabulary
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   try {
-    const { vocabulary, categories } = getData();
     const { category, search } = req.query;
+    const filter = {};
 
-    let filtered = vocabulary;
     if (category) {
-      filtered = filtered.filter((v) => v.category === category);
+      filter.category = category;
     }
     if (search) {
-      const qLower = search.toLowerCase();
-      filtered = filtered.filter((v) => v.word.toLowerCase().includes(qLower));
+      filter.word = { $regex: search, $options: 'i' };
     }
 
-    res.json({ success: true, count: filtered.length, categories, vocabulary: filtered });
+    const vocabulary = await Vocabulary.find(filter).lean();
+    res.json({ success: true, count: vocabulary.length, categories, vocabulary });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }
 });
 
 // GET /api/vocabulary/daily
-router.get('/daily', (req, res) => {
+router.get('/daily', async (req, res) => {
   try {
-    const { vocabulary } = getData();
+    const vocabulary = await Vocabulary.find({}).lean();
+    if (!vocabulary.length) {
+      return res.status(404).json({ success: false, message: 'No vocabulary available' });
+    }
     const dayOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
     const dailyWord = vocabulary[dayOfYear % vocabulary.length];
     res.json({ success: true, dailyWord });
@@ -44,10 +50,9 @@ router.get('/daily', (req, res) => {
 });
 
 // GET /api/vocabulary/:id
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
-    const { vocabulary } = getData();
-    const word = vocabulary.find((v) => v.id === req.params.id);
+    const word = await Vocabulary.findOne({ id: req.params.id }).lean();
     if (!word) {
       return res.status(404).json({ success: false, message: 'Word not found' });
     }

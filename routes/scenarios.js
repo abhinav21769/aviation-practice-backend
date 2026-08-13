@@ -1,37 +1,34 @@
 import express from 'express';
-import fs from 'fs';
-import path from 'path';
+import Scenario from '../models/Scenario.js';
 
 const router = express.Router();
-const dataPath = path.resolve('data/scenarios.json');
 
-function getData() {
-  const content = fs.readFileSync(dataPath, 'utf8');
-  return JSON.parse(content);
-}
+const categories = [
+  { id: 'disruptive_passengers', label: 'Disruptive Passengers', icon: 'AlertTriangle' },
+  { id: 'medical_emergencies', label: 'Medical Emergencies', icon: 'HeartPulse' },
+  { id: 'safety_violations', label: 'Safety Violations', icon: 'ShieldAlert' },
+  { id: 'service_recovery', label: 'Service Recovery', icon: 'SmilePlus' },
+  { id: 'special_needs', label: 'Special Needs', icon: 'Accessibility' },
+  { id: 'team_coordination', label: 'Team Coordination', icon: 'Users' },
+  { id: 'irregular_operations', label: 'Irregular Operations', icon: 'Clock' },
+];
 
 // GET /api/scenarios
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   try {
-    const { scenarios, categories } = getData();
     const { category } = req.query;
-
-    let filtered = scenarios;
-    if (category) {
-      filtered = filtered.filter((s) => s.category === category);
-    }
-
-    res.json({ success: true, count: filtered.length, categories, scenarios: filtered });
+    const filter = category ? { category } : {};
+    const scenarios = await Scenario.find(filter).lean();
+    res.json({ success: true, count: scenarios.length, categories, scenarios });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }
 });
 
 // GET /api/scenarios/:id
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
-    const { scenarios } = getData();
-    const scenario = scenarios.find((s) => s.id === req.params.id);
+    const scenario = await Scenario.findOne({ id: req.params.id }).lean();
     if (!scenario) {
       return res.status(404).json({ success: false, message: 'Scenario not found' });
     }

@@ -1,41 +1,43 @@
 import express from 'express';
-import fs from 'fs';
-import path from 'path';
+import Question from '../models/Question.js';
 
 const router = express.Router();
-const dataPath = path.resolve('data/interviewQuestions.json');
 
-function getData() {
-  const content = fs.readFileSync(dataPath, 'utf8');
-  return JSON.parse(content);
-}
+// Static category metadata for UI display
+const categories = [
+  { id: 'personal', label: 'Personal', icon: 'User' },
+  { id: 'customer_service', label: 'Customer Service', icon: 'Heart' },
+  { id: 'teamwork', label: 'Teamwork', icon: 'Users' },
+  { id: 'conflict_resolution', label: 'Conflict Resolution', icon: 'ShieldAlert' },
+  { id: 'safety_emergency', label: 'Safety & Emergency', icon: 'AlertTriangle' },
+  { id: 'airline_specific', label: 'Airline-Specific', icon: 'Plane' },
+  { id: 'cultural_awareness', label: 'Cultural Awareness', icon: 'Globe' },
+];
 
 // GET /api/questions
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   try {
-    const { questions, categories } = getData();
     const { category, search } = req.query;
+    const filter = {};
 
-    let filtered = questions;
     if (category) {
-      filtered = filtered.filter((q) => q.category === category);
+      filter.category = category;
     }
     if (search) {
-      const qLower = search.toLowerCase();
-      filtered = filtered.filter((q) => q.question.toLowerCase().includes(qLower));
+      filter.question = { $regex: search, $options: 'i' };
     }
 
-    res.json({ success: true, count: filtered.length, categories, questions: filtered });
+    const questions = await Question.find(filter).lean();
+    res.json({ success: true, count: questions.length, categories, questions });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }
 });
 
 // GET /api/questions/:id
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
-    const { questions } = getData();
-    const question = questions.find((q) => q.id === req.params.id);
+    const question = await Question.findOne({ id: req.params.id }).lean();
     if (!question) {
       return res.status(404).json({ success: false, message: 'Question not found' });
     }
