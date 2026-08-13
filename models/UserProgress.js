@@ -38,6 +38,19 @@ const UserProgressSchema = new mongoose.Schema(
     todayEstimatedMinutes: { type: Number, default: 20 },
     savedWords: [{ type: String }],
     completedQuestions: [{ type: String }],
+    questionResponses: [
+      {
+        questionId: String,
+        answer: String,
+        starAnswer: {
+          situation: String,
+          task: String,
+          action: String,
+          result: String,
+        },
+        answeredAt: { type: Date, default: Date.now },
+      },
+    ],
     completedScenarios: [{ type: String }],
     scenarioResponses: [
       {

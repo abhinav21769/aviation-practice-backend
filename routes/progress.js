@@ -91,15 +91,35 @@ router.post('/word', async (req, res) => {
 
 // POST /api/progress/question
 router.post('/question', async (req, res) => {
-  const { questionId } = req.body;
+  const { questionId, answer, starAnswer } = req.body;
   try {
     const doc = await getNishthaProgress();
+
+    // Store or update written answer
+    if (answer || starAnswer) {
+      if (!doc.questionResponses) doc.questionResponses = [];
+      const existingIdx = doc.questionResponses.findIndex((r) => r.questionId === questionId);
+      if (existingIdx >= 0) {
+        if (answer !== undefined) doc.questionResponses[existingIdx].answer = answer;
+        if (starAnswer !== undefined) doc.questionResponses[existingIdx].starAnswer = starAnswer;
+        doc.questionResponses[existingIdx].answeredAt = new Date();
+      } else {
+        doc.questionResponses.push({
+          questionId,
+          answer: answer || '',
+          starAnswer: starAnswer || null,
+          answeredAt: new Date(),
+        });
+      }
+    }
+
     if (!doc.completedQuestions.includes(questionId)) {
       doc.completedQuestions.push(questionId);
       doc.questionsAnswered += 1;
       doc.categoryProgress.interview = Math.min(100, doc.categoryProgress.interview + 2);
-      await doc.save();
     }
+
+    await doc.save();
     res.json({ success: true, progress: doc });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
